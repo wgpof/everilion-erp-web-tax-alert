@@ -1,0 +1,17 @@
+﻿.CommunicationConfiguratorControl-col2{
+    width: 50%;
+    min-height: 20px;
+    float: left;
+    display: inline-block;
+}
+
+
+.CommunicationConfiguratorControl-col2 > div {
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.CommunicationConfiguratorControl-col2 > input[type="text"]{
+    width:100%;
+}

@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+
+@font-face{
+	font-family:"RepsolRegular";
+	src:url(http://www.ilionsistemas.com/Lib/estilos/Repsol/fonts/Repsol-Regular.ttf)
+}
+
+@font-face{
+	font-family:"RepsolBold";
+	src:url(http://www.ilionsistemas.com/Lib/estilos/Repsol/fonts/Repsol-Bold.ttf)
+}
+
+label{display:block;position:relative;left:30px;z-index:1;font-family:"RepsolBold","arial"; color:#fff;font-size:20px;
+}
+#presenceData{width:1024px;margin:auto;}
+#imagecontenidor{position:absolute; top:0px;}
+
+#operationDate{width: 95%;text-align:right;top:10px;}
+#lblInterests, #Gender, #Age,#lblAge, #lblEthnicity,#lblStore{float:left;padding-right:5px;}

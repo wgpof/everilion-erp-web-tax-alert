@@ -1,0 +1,127 @@
+/*---------->Breadcrumb*/
+
+@font-face {
+    font-family: 'Type';
+    src: url('fonts/NotoSans-Regular-webfont.woff') format('woff'),
+         url('fonts/NotoSans-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Type';
+    src: url('fonts/NotoSans-Bold-webfont.woff') format('woff'),
+         url('fonts/NotoSans-Bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+#breadcrumb {
+    width: 100%;
+}
+
+.breadcrumb_td, .breadcrumb_td span {
+    font-family: "Type", sans-serif;
+}
+
+.breadcrumb_td {
+    color: #231f20;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+    .breadcrumb_td + td img {
+        width: 26px;
+        height: 26px;
+    }
+
+    .breadcrumb_td:first-letter {
+        text-transform: capitalize;
+    }
+/*
+	#breadcrumb span{
+		color:#3fa9c3;
+	}*/
+
+.breadcrumb_td_right {
+    font: 12px "Type", sans-serif;
+    color: #666;
+    text-align: right;
+}
+
+.breadcrumb_link {
+    font: 12px "Type", sans-serif;
+    color: #188290;
+    text-decoration: none;
+}
+
+.breadcrumb_select {
+    font: 12px "Type", sans-serif;
+    color: #666;
+}
+
+#breadcrumb_modal {
+    font: 12px "Type", sans-serif;
+    color: #666;
+    border: 1px solid #e3e3e3;
+    margin-left: 9px;
+    width: 98%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.breadcrumb_td_modal {
+    font: 12px "Type", sans-serif;
+    color: #3fa9c3;
+}
+
+.breadcrumb_td + .CELDA7 {
+    text-align: right;
+}
+
+#splashScreen {
+    position: absolute;
+    top: 50% !important;
+    left: 50% !important;
+    margin-left: -200px;
+    margin-top: -125px;
+}
+
+.BK_WAIT_PDF {
+    font: 12px "Type", sans-serif !important;
+}
+
+#wait {
+    width: auto !important;
+}
+
+#waitBoxOculto {
+    left: 50% !important;
+    top: 50% !important;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+#wait_transparence_pdf {
+    background-color: #fff;
+    width: 400px;
+    height: 150px !important;
+    float: left;
+    opacity: 0.70;
+    border: none !important;
+}
+
+#text_transparence_pdf {
+    position: absolute;
+    width: 400px;
+    border: none;
+    top: 0px;
+    left: 0px;
+}
+
+#wait_transparence, #text_transparence {
+    border: none !important;
+    height: 125px !important;
+}

@@ -1,0 +1,11 @@
+﻿tr {
+    background: none;
+}
+
+table.customWidthP tr td.CELDA {
+    width: 200px;
+}
+
+table.customWidthP td.CELDA[valign='top'] {
+    vertical-align: top;
+}

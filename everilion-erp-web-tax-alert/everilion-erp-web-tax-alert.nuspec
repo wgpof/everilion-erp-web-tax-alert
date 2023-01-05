@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>everilion-erp-web-tax-alert</id>
+    <version>1.0.0</version>
+    <title>everilion-erp-web-tax-alert</title>
+    <authors>Everilion</authors>
+    <owners>Everilion</owners>
+    <licenseUrl>http://www.everilion.com</licenseUrl>
+    <projectUrl>http://www.everilion.com</projectUrl>
+    <iconUrl>http://www.recodemk.es/wp-content/uploads/2013/09/everilion.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Reporting promotion web page</description>
+    <copyright>Copyright Everilion 2022</copyright>
+    <dependencies>
+      <group targetFramework="net451">
+        <dependency id="AjaxControlToolkit" version="4.1.51116" />
+        <dependency id="ASPNETJSUtils" version="1.0.0" />
+        <dependency id="Auditoria" version="1.0.0" />
+        <dependency id="Everilion.BD.ActivityType" version="1.0.0" />
+        <dependency id="Everilion.BD.Address" version="1.0.6" />
+        <dependency id="Everilion.BD.Center" version="1.2.1" />
+        <dependency id="Everilion.BD.Client" version="1.9.13" />
+        <dependency id="Everilion.BD.ConfigCompany" version="1.2.3" />
+        <dependency id="Everilion.BD.Currency" version="1.1.3" />
+        <dependency id="Everilion.BD.Enabler" version="2.1.68" />
+        <dependency id="Everilion.BD.EntityType" version="1.0.1" />
+        <dependency id="Everilion.BD.Generic" version="2.0.32" />
+        <dependency id="Everilion.BD.IVA" version="1.0.1" />
+        <dependency id="Everilion.BD.ListPrice" version="1.1.1.0" />
+        <dependency id="Everilion.BD.Network" version="1.0.0" />
+        <dependency id="Everilion.BD.POS" version="1.0.0" />
+        <dependency id="Everilion.BD.Product" version="1.7.20" />
+        <dependency id="Everilion.BD.Store" version="1.8.17" />
+        <dependency id="Everilion.BD.Warehouse" version="1.0.0" />
+        <dependency id="Everilion.BD.Zone" version="1.0.0" />
+        <dependency id="everilion-enabler-net-instance-service" version="3.0.40" />
+        <dependency id="everilion-erp-net-service-cross" version="1.10.16-SNAPSHOT2210201728" />
+        <dependency id="EverilionNetRedis" version="2.1.4" />
+        <dependency id="everilion-sql-data-model-all" version="1.0.2" />
+        <dependency id="Herramientas" version="1.0.0" />
+        <dependency id="Idiomas" version="1.0.1.0" />
+        <dependency id="Interfaz" version="1.1.1.0" />
+        <dependency id="Microsoft.CodeDom.Providers.DotNetCompilerPlatform" version="3.6.0" />
+        <dependency id="Newtonsoft.Json" version="13.0.1" />
+        <dependency id="ShareMasterPage" version="2.1.2" />
+        <dependency id="StackExchange.Redis" version="1.2.4" />
+        <dependency id="Transporte" version="1.0.1" />
+        <dependency id="WebConfig" version="1.0.0" />
+
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Readme.txt" target=""/>
+    <file src="bin\Publish\TaxAlert\**\*" target="lib\net45\TaxAlert"/>
+    <!--dll-->
+    <file src="bin\Publish\bin\everilion-erp-web-tax-alert.dll" target="lib\net45\bin"/>
+    <file src="bin\Publish\bin\TaxAlert.Report.dll" target="lib\net45\bin"/>
+    <!--compiled-->
+    <file src="bin\Publish\bin\taxtalertreport.aspx.f39b9478.compiled" target="lib\net45\bin"/>
+  </files>
+</package>

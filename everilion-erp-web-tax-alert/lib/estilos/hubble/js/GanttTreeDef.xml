@@ -1,0 +1,152 @@
+<Grid>
+	<Cfg id="Gantt"/>
+	<!-- Auto Salvado -->
+	<Cfg AutoUpdate='1'/>
+	<Cfg Group="L" GroupMain="T" Sort="T"/>
+	<!-- Displays tree in column T (Task / Subtask) -->
+	<Cfg NumberId="1" IdChars="0123456789"/>
+	<!-- Controls generation of new row ids -->
+	<Cfg ScrollLeftLap="0"/>
+	<!-- Saves horizontal scroll in Gantt to cookies -->
+	<Cfg GroupMoveFree="2"/>
+	<!-- Rows can be moved also as children to data rows, set it width DefParent and DefEmpty -->
+	<Cfg MaxHeight="1"/>
+	<!-- Maximizes height of the main tag -->
+	<Cfg Style="Modern"/>
+	<!-- Presets Office style -->
+	<Cfg PrintCols='2'/>
+	<!-- Let a user to choose which columns will be printed and shows print options -->
+	<Cfg ExportCols='2'/>
+	<!-- Let a user to choose which columns will be exported and shows export options -->
+	<Cfg ExportPDFCols='2'/>
+	<!-- Let a user to choose which columns will be printed to PDF and shows print PDF options -->
+	<Cfg ExportType='Expanded,Outline'/>
+	<Cfg Sorting="’1’"/>
+	<!-- Export setting, all rows will be exported expanded and will be used Excel outline -->
+	<Def>
+		<D Name="Task" Group="1"/>
+		<!-- The Default "Task" will be used for grouping -->
+		<D Name="Task" Expanded="1" Calculated="1" CalcOrder="S,E,DUR,DUR_R,C,G,I" AggChildren="1"/>
+		<!-- Group of task calculates summary of the tasks -->
+		<D Name="Task" SFormula="minimum(min('S'),min('E'))"/>
+		<!-- Gets the first start date from its children -->
+		<D Name="Task" EFormula="maximum(max('S'),max('E'))"/>
+		<!-- Gets the last end date from its children -->
+		<D Name="Task" DURFormula="ganttduration()"/>
+		<D Name="Task" DUR_RFormula="sum('DUR_R')"/>
+		<D Name="Task" IFormula="sum('I')"/>
+		<!-- Calculates average task completion from its children -->
+		<D Name="Task" CFormula="ganttpercent('S','E','DUR','DUR_R','d','I','PER')"/>
+		<!-- Calculates average task completion from its children -->
+		<D Name="Task" GColor="240,240,240"/>
+		<!-- Changes background color -->
+		<D Name="Task" DButton=""/>
+		<!-- Cannot change dependency of group task -->
+		<D Name="Task" GGanttClass="GanttG" GGanttIcons="1" GGanttEdit="0" GGanttHover="0"/>
+		<!-- Gantt setting specific for Group rows, changes colors and restrict changes by a user -->
+		<D Name="Task" GGanttSummary="1"/>
+		<!-- Row works as Gantt Summary, when moved, it moves its child tasks too -->
+		<D Name="Task"/>
+		<!-- Does not upload this row to the server -->
+		<D Name="R" DefParent="Task"/>
+		<!-- Changes the parent row to group row when it gets its first child -->
+		<D Name="R" DefEmpty="R"/>
+		<!-- Changes the parent row to data row when it looses its last child -->
+
+
+
+	</Def>
+	<Panel Copy="7"/>
+	<!-- Shows Add/Copy icon on left side panel -->
+	<LeftCols>
+		<C Name="id" Width="40" Type="Text" CanEdit="0"/>
+		<!-- Row id, informational column -->
+		<C Name="T" Width="150" Type="Text"/>
+		<!-- Column Task / Section-->
+		<C Name="S" Width="65" Type="Date" Format="dd/MM/yyyy" EditFormat="dd/MM/yyyy"/>
+		<!-- Column Start date-->
+		<C Name="E" Width="65" Type="Date" Format="dd/MM/yyyy" EditFormat="dd/MM/yyyy"/>
+		<!-- Column End Date -->
+		<C Name="DUR" Width="55" Type="Float" Format="0.#" />
+		<C Name="DUR_R"  Width="55" Type="Float" Format="0.#" />
+		<C Name="C" Width="55" Type="Int" Format="##\%;;0\%" Formula="(DUR>0 ? (DUR_R*100)/DUR : 0)"/>
+		<!-- Column Complete -->
+		<C Name="D" Width="0" Type="Text"/>
+		<C Name="PRE" Width="100" Type="Text" CanEdit="1" Button="Defaults" Defaults="|*RowsColid*VariableDef" Range="1"/>
+		<!-- Column dependencies (Next) -->
+		<C Name="R" Width="110" Type="Text" OnChange= 'alert("changed")'  />
+		<C Name="I" Width="65" Type="Text"  Format="0.#€" Forumula="sum('I')"/>
+		<C Name="L" Width="0" CanEdit="0" Hidden="1" Visible="0"/>
+		<!-- Grouping levels definitions -->
+		<C Name="L" CanGroup="2"/>
+		<!-- Does not hide the column when is grouped by -->
+		<C Name="L" GroupChar="#"/>
+		<!-- The individual grouping level names are separated by '/' -->
+		<C Name="L" GroupEmpty="0"/>
+		<!-- Does not create groups for empty Levels -->
+		<!-- Resources column -->
+	</LeftCols>
+	<Cols>
+		<!-- Gantt chart column, basic settings -->
+		<C Name="G" Type="Gantt"
+		   GanttStart="S" GanttEnd="E" GanttComplete="C" GanttAncestors="PRE" GanttDuration="DUR"
+		   GanttUnits="d" GanttChartRound="w" GanttEdit="Main,Dependency" GanttRight="1"
+		   GanttHeader1="w#dddddd MMMM yyyy" GanttHeader2="d#ddddd" GanttBackground="w#1/6/2011~1/6/2011 0:01"
+         />
+
+	</Cols>
+
+	<RightCols>
+		<C Name="G" GanttDataUnits="h" />
+		<!-- All lengths in input data XML (like Dependency lags) are in hours -->
+		<C Name="G" GanttDataModifiers="m:1/60,h:1,d:8,w:40"/>
+		<!-- Modifiers that can be used in Dependency lag values to multiply the value to get hour count -->
+		<!--<C Name="G" GanttExclude = "d#18:00~9:00; d#13:00~14:00#1; w#1/5/2008~1/7/2008#2; 5/28/2008~5/29/2008#3"/>-->
+		<!-- Defines excluded dates from Gantt chart, defines as excluded weekends and hours outside 9:00 - 13:00, 14:00 - 18:00 -->
+		<!-- The excluded dates are not used for Gantt calculations and behaves like they don't exist at all -->
+		<!-- The low zoom levels disable the Exclude, because of too many units (hours) in the zoomed chart, 
+                  in this case the correcting dependency should be disabled too, because dependencies become incorrect -->
+		<C Name="G" GanttHideExclude="0"/>
+		<!-- By default are the Excluded dates shown in chart, it can be changed by a user -->
+
+
+		<!-- Predefine zoom level name -->
+	</RightCols>
+	<Header id="ID" T="Tarea" S="Inicio" E="Fin" C="Completo" DUR_R="Duracion Real(h)" DUR="Duracion(h)" R="Recursos" G="Gantt" D="Padre" L="Arbol Niveles" I="Coste" PRE="Predecesor"/>
+	<!-- Column captions -->
+
+
+	<Solid>
+
+		<!-- Defines the control row with combos to choose grouping, zoom and filter by resources -->
+		<Group id="Group" Space="0" Panel="0" Cells="List,Zoom,Ex,HidEx"
+        
+		   ListLeft="5"
+		   ListHtmlPrefix='&lt;b>Agrupado por &lt;span style="color:blue;">' ListHtmlPostfix='&lt;/span>&lt;/b>'
+			  List='|none|Tarea|Tareaa completa|Completa|Inicio|Fin|Recursos'
+		   Cols='||L|C,L|C|S|E|R'
+			  ListWidth='108'
+			
+		       
+		   ExLabel="&lt;b style='color:blue;'>Vacaciones&lt;/b>" ExType="Text" ExFormula="Grid.Cols.G.GanttExclude" ExCanEdit="0" ExWidth="150" ExLeft="5"
+		   ExButton="Dates"
+		   ExDatesRepeatType="Enum" ExDatesRepeatEnum="||Semanal|Diario" ExDatesRepeatEnumKeys="||w|d"
+		   ExDatesValueType="Enum" ExDatesValueEnum="|No laboral|Excepcion|Comida|Fin semana|Vacaciones|Reservado1|Reservado2" ExDatesValueEnumKeys="||0|1|2|3|4|5" ExDatesValueCaption="Type"
+		   ExOnChange="Grid.ChangeExclude(Value,0);" ExUndo="1"
+
+		   HidExType='Bool' HidExNoColor='1' HidExLeft='5' HidExCanFocus='0'
+		   HidExLabelRight='Hide holidays'
+		   HidExFormula='Grid.Cols.G.GanttHideExclude'
+		   HidExOnChange='Grid.SetHideExclude(Value)'
+		   HidExCanEditFormula='gantthasexclude()!=0'
+
+         />
+
+
+
+	</Solid>
+	<!-- Shows count of incorrect dependencies and on click corrects them -->
+	<Toolbar   Formula="ganttdependencyerrors(null,1)" FormulaOnClick="CorrectAllDependencies" FormulaTip="Click to correct the dependencies"/>
+
+
+</Grid>

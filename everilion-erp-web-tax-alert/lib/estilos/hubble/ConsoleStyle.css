@@ -1,0 +1,241 @@
+﻿body {
+}
+
+/**************************************************************************************************************************************************************/
+/* CONSOLE Style */
+/**************************************************************************************************************************************************************/
+
+.title {
+    color: #666666;
+    font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif;
+    font-size: 14px;
+    margin: 5px 0;
+    padding: 5px 0 5px;
+    line-height: 13px;
+}
+
+a span {
+    cursor: pointer;
+    display: inline-block;
+    padding-top: 50px;
+    line-height: 11px;
+}
+
+a {
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 0.7em;
+    letter-spacing: -0.03em;
+    font-weight: bold;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 80px;
+    margin: 0 5px 5px;
+    vertical-align:middle;
+}
+
+.lnkAttributePoints {
+    background: url(images/fidelizacion/atribuir_puntos_btn.png) no-repeat scroll left top transparent;
+    cursor: pointer;
+}
+
+    .lnkAttributePoints:hover {
+        background-position: right center;
+    }
+
+.lnkRedeemPoints {
+    background: url(images/fidelizacion/canjear_puntos_btn.png) no-repeat scroll left top transparent;
+}
+
+    .lnkRedeemPoints:hover {
+        background-position: right center;
+    }
+
+.lnkRechargeCard {
+    background: url(images/fidelizacion/recarga_tarjeta_btn.png) no-repeat scroll left top transparent;
+}
+
+    .lnkRechargeCard:hover {
+        background-position: right center;
+    }
+
+.lnkConsume {
+    background: url(images/fidelizacion/consumo_tarjeta_btn.png) no-repeat scroll left top transparent;
+}
+
+    .lnkConsume:hover {
+        background-position: right center;
+    }
+
+.lnkCreateCard {
+    background: url(images/fidelizacion/nueva_tarjeta_btn.png) no-repeat scroll left top transparent;
+}
+
+    .lnkCreateCard:hover {
+        background-position: right center;
+    }
+
+.lnkAssignCoupons {
+    background: url(images/fidelizacion/asignar_cupones_btn.png) no-repeat scroll left top transparent;
+}
+
+    .lnkAssignCoupons:hover {
+        background-position: right center;
+    }
+
+.lnkRedeemCoupons {
+    background: url(images/fidelizacion/canjear_cupones_btn.png) no-repeat scroll left top transparent;
+}
+
+    .lnkRedeemCoupons:hover {
+        background-position: right center;
+    }
+
+.lnkAttributeIlieuros {
+    background: url(images/fidelizacion/atribuir_efectivo_btn.png) no-repeat scroll left top transparent;
+}
+
+    .lnkAttributeIlieuros:hover {
+        background-position: right center;
+    }
+
+.linkPayIlieuros {
+    background: url(images/fidelizacion/pagar_ilieuros_btn.png) no-repeat scroll left top transparent;
+}
+
+    .linkPayIlieuros:hover {
+        background-position: right center;
+    }
+
+.lnkReturnIlieuros {
+    background: url(images/fidelizacion/anular_pago_btn.png) no-repeat scroll left top transparent;
+}
+
+    .lnkReturnIlieuros:hover {
+        background-position: right center;
+    }
+
+.lnkCancelAttributeIlieuros {
+    background: url(images/fidelizacion/cancelar_atribucion_btn.png) no-repeat scroll left top transparent;
+}
+
+    .lnkCancelAttributeIlieuros:hover {
+        background-position: right center;
+    }
+
+.lnkCodeReferred {
+    background: url(images/fidelizacion/consultar_codigo_btn.png) no-repeat scroll left top transparent;
+}
+
+    .lnkCodeReferred:hover {
+        background-position: right center;
+    }
+
+.lnkDirectAttribution {
+    background: url(images/fidelizacion/recarga_tarjeta_btn.png) no-repeat scroll left top transparent;
+    cursor: pointer;
+}
+
+    .lnkDirectAttribution:hover {
+        background-position: right center;
+    }
+
+.lnkCancellation {
+    background: url(images/fidelizacion/anulacion_btn.png) no-repeat scroll left top transparent;
+    cursor: pointer;
+}
+    .lnkCancellation:hover {
+        background-position: right center;
+    }
+
+a:hover {
+    color: #CCCCCC;
+    cursor: pointer;
+}
+
+.btn_wrapper {
+    cursor: pointer;
+    display: inline;
+    height: 80px;
+    width: 80px;
+}
+
+.div_sup {
+    padding: 0 10px 10px;
+    width: 210px;
+    text-align: center;
+    border-radius: 5px;
+    moz-border-radius: 5px;
+}
+
+#createCard {
+    background: #f4ebe2;
+}
+
+#codeReferred {
+    background: #c3ddd7;
+}
+
+#cards {
+    background: #e6d9d4;
+}
+
+#lcards {
+    background: #ededed;
+}
+
+#ilieuros {
+    background: #ededed;
+}
+
+#coupons {
+    background: #e2d9e3;
+}
+
+.tableS {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+.divS {
+    width: 100%;
+    height: 7%;
+    border-bottom: 1px solid black;
+    color: White;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    overflow-y: hidden;
+    background-color: #75797e;
+}
+
+.tdS {
+    color: White;
+    vertical-align: middle;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 11px;
+}
+
+.tdS2 {
+    vertical-align: middle;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 11px;
+}
+
+.divB {
+    margin-left: 10px;
+    overflow-y: auto;
+    width: 95%;
+}
+
+/* cellspacing="10" */
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+

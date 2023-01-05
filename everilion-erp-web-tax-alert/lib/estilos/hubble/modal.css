@@ -1,0 +1,77 @@
+body
+{
+}
+
+#mask
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9000;
+    background-color: #D3D3D3;
+    display: none;
+}
+
+.boxes .window
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    z-index: 9998;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+}
+
+.d-header
+{
+}
+
+.dialog1 .d-blank
+{
+    float: left;
+}
+
+.dialog1 .d-login
+{
+    float: right;
+    top: 50px;
+    z-index: 9999;
+    z-index: 1;
+}
+
+.backGroundClose
+{
+    cursor: pointer;
+    position: fixed;
+    z-index: 150;
+    background-image: url('/Lib/estilos/ilion/images/close.png');
+    display: inline-block;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 26px;
+    width: 30px;
+}
+
+.backGround
+{
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #000000;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+#map-canvas
+{
+    position: fixed !important;
+    height: 400px;
+    width: 600px;
+    z-index: 101;
+}

@@ -1,0 +1,317 @@
+/* 
+ * CSS Ilion
+ * CSS to Master file
+ * Date: 4/2/2012
+ * HM, MD
+ */
+
+/*---------->Body*/
+@font-face {
+    font-family: 'Type';
+    src: url('fonts/NotoSans-Regular-webfont.woff') format('woff'),
+         url('fonts/NotoSans-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Type';
+    src: url('fonts/NotoSans-Bold-webfont.woff') format('woff'),
+         url('fonts/NotoSans-Bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+.body_master {
+    font-family: "Type", sans-serif;
+    font-style: normal;
+    color: #555;
+    background-color: #fff;
+    margin: 0;
+    padding: 0 0 50px 0;
+    width: 100%;
+    height: 100%
+}
+
+.body_master_ASP {
+    margin: 0px;
+}
+
+form[name="opciones"] {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    left: 0;
+    height: 55px;
+    bottom: 0;
+    background: #fff;
+    border-top: solid 6px #ccc;
+    z-index: 199;
+    transition: width .5s;
+    margin-bottom: 0px;
+}
+
+/*
+.body_master_ASP
+{		
+	font-family:"Type", sans-serif;
+	font-style:normal;
+	color:#555;
+	background-color: #75797e;
+	padding:0;
+	width:100%;
+	height:100%;
+}*/
+
+.body_master_ASP_asistente {
+    font-family: "Type", sans-serif;
+    font-style: normal;
+    color: #555;
+    background-color: #FFFFFF;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*---------->page footer*/
+
+#PageFooter {
+    background: #ddd;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    margin-left: 0;
+    margin-top: 0px;
+    z-index: 999;
+}
+
+#PageFooter_ASP {
+    background: #ddd;
+    height: 55px;
+    left: 0px;
+    margin-left: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#CollapseFooter {
+    display: none;
+    height: 22px;
+    margin-bottom: -3px;
+    margin-right: 7px;
+}
+
+#ControlPanelFooter {
+    position: absolute;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    left: 0;
+    height: 55px;
+    bottom: 0;
+    background: #ccc;
+    border-top: solid 1px #ccc;
+    z-index: 199;
+    transition: width .5s;
+    margin-bottom: 0px;
+}
+
+.PanelFooter {
+    min-height: 45px;
+    width: 100%;
+    margin-left: 0;
+    display: inline-block;
+    background: #ccc;
+}
+
+
+#ControlPanelFooter_ASP {
+    border-top: solid 1px #ccc;
+    height: 45px;
+    margin: 0;
+    padding: 0 5px;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+}
+
+#ControlPanelFooter_left_ASP {
+    width: auto;
+    margin-left: 5px;
+    text-align: left;
+    vertical-align: middle;
+    float: left;
+}
+
+#BUTTONS {
+    border-spacing: 0;
+    width: auto;
+    height: 100%;
+    float: left;
+}
+
+/*
+#BUTTONS a, .active
+{
+	color:#ccc;
+}
+
+#BUTTONS a:hover, a.active:hover
+{
+	color:#ccc;
+}
+*/
+
+#BUTTONS_CENTER {
+    width: auto;
+    height: 100%;
+    margin: 0px auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#BUTTONS_CENTER_ASP {
+    width: auto;
+    height: 100%;
+    margin: 0px auto;
+    text-align: center;
+    vertical-align: middle;
+}
+/*
+#BUTTONS_CENTER a, .active
+{
+	color: black;
+}
+
+#BUTTONS_CENTER a:hover, a.active:hover {
+    color: #e35e24;
+}
+*/
+#FILTERS_MASTER {
+    padding: 3px 6px 3px 3px;
+    margin: 16px 40px 16px 5px;
+    width: auto;
+    height: auto;
+    float: right;
+    /*border-radius:10px;
+	border:solid 1px #999;*/
+}
+
+.FILTERS_MASTER {
+    padding: 3px 6px 3px 3px;
+    margin: 16px 40px 16px 5px;
+    width: auto;
+    height: auto;
+    float: right;
+    /*border-radius:10px;
+	border:solid 1px #999;*/
+}
+
+#FILTERS_MASTER_ASP {
+    float: right;
+    height: auto;
+    margin: 16px 40px 16px 10px;
+    width: auto;
+}
+
+#PIEZ {
+    float: left;
+    position: absolute;
+    bottom: 0;
+    margin: 0 30px;
+}
+
+.clear {
+    clear: both;
+}
+
+/*Buttons*/
+.Button {
+    margin-right: 10px;
+}
+
+ButtonFooter {
+    text-decoration: none;
+}
+
+.ButtonR {
+    float: right;
+}
+
+.IN {
+    height: 26px;
+    margin: 0 4px 0 0;
+    padding: 2px 4px;
+    vertical-align: middle;
+    border-radius: 3px;
+    border: solid 1px #ccc;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+}
+
+    .IN:hover {
+        color: #e35e24;
+    }
+
+.INPUT {
+    font-Family: "Type", sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    border: solid 1px #bbb;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+    .INPUT:hover {
+        color: #e35e24;
+    }
+
+input.IN_S {
+    cursor: text;
+    border-radius: 0;
+}
+
+.IN_S {
+    height: 26px;
+    margin: 0 4px 0 0;
+    padding: 2px 4px;
+    vertical-align: middle;
+    border-radius: 3px;
+    border: solid 1px #ccc;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+}
+
+    .IN_S:hover, .IN_S:focus {
+        color: #e35e24;
+    }
+
+#KeySearch, input.IN_S {
+    border-width: 0 0 1px;
+    font-style: italic;
+}
+
+.IN_S + .CELDAREF img {
+    vertical-align: middle;
+}
+
+.input_search {
+    color: #ccc;
+    font-style: italic;
+    background: transparent;
+    cursor: text;
+}
+
+    .input_search:focus {
+        color: black;
+    }
+
+.BUTTON_S {
+    margin: 0px 0px -5px 0px;
+    height: 22px;
+    width: 22px;
+}

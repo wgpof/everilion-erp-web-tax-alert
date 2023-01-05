@@ -1,0 +1,28 @@
+/* 
+ * Everilion Styles
+ * Object Information
+ * Date: 17/06/2013
+ * HM, MD
+ */
+
+.data_object
+{
+	font:12px "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	color:#666;
+	margin:0 0 0 5px;
+	padding: 0 0 0 0;
+	display:inline-block;
+	text-align: left;
+}
+
+.line_vertical
+{
+	text-align:center;
+	height:18px;
+	width:3px;	
+	border:0;
+	padding-left:1px;
+	padding-right:1px;
+	vertical-align:bottom;
+}
+

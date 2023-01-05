@@ -1,0 +1,99 @@
+﻿a:hover, a:link, a:visited, a 
+{
+	text-decoration:none;
+	
+}
+#LinkListConfiguratorControl-ExtraLink
+{
+	margin:10px 7px 15px 7px;
+	font:12px Tahoma,"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	padding:0;
+	margin:0;  
+    margin-left: 6px;
+	
+}
+#LinkListConfiguratorControl-ExtraLink .der
+{
+	vertical-align:middle;
+	text-align:center;
+	color:#ffac5d;
+	padding-left: 1em;
+	padding-bottom: 0;
+	padding-right: 1em;
+	padding-top: 0;
+	width:3px;
+}
+#LinkListConfiguratorControl-ExtraLink div
+{
+	color:#FFAB5D;
+	text-align:center;
+}
+#LinkListConfiguratorControl-ExtraLink td
+{
+	margin:0 0.2em;
+	vertical-align:middle;
+	padding:0;
+	display:inline-block;
+}
+
+#LinkListConfiguratorControl-Image
+{
+	margin:0;
+    min-width:0px !important;
+	vertical-align:middle;
+	padding:0;
+	display:inline-block;
+}
+
+#LinkListConfiguratorControl-ExtraLink div a, .active
+{
+	color: rgb(0, 158, 229);
+}
+#LinkListConfiguratorControl-ExtraLink div a:hover, #LinkListConfiguratorControl-ExtraLink span, a.active:hover
+{
+	color:#060E6F;
+}
+
+
+.line_horizontal
+{
+	margin:-2px 0 0 0;
+	border-top:3px solid #C5EBF3;
+}
+
+.el0
+{
+    
+}
+
+.el1
+{
+    width: 150px;
+    color: #00ff00;
+    float: left;
+    text-align: center;
+    font:12px Tahoma,"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    
+}
+
+.el1 a
+{
+    color:#2589a2;
+}
+
+.el1 a:hover, .el1 span, a.active:hover
+{
+
+color:#ffac5d;
+	
+}
+.el2
+{
+    width: 3px;
+    color: #ffac5d;
+    float: left;
+    text-align: center;
+    font:12px Tahoma,"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    
+}
+

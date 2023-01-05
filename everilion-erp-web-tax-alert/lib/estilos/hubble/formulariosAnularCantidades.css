@@ -1,0 +1,31 @@
+﻿.CELDAREF7 {
+    display: inline-block;
+}
+
+tr {
+    background: none;
+}
+
+table.customWidth tr td.CELDA {
+    width: 145px;
+}
+
+#dataTable tr:nth-child(odd) {
+    background: #fcecd2;
+}
+
+#dataTable tr:nth-child(even) {
+    background: #fdfdfd;
+}
+
+.customBackground {
+    background-color: #ffffff;
+}
+
+.padding-top20 {
+    padding-top: 20px;
+}
+
+.padding-top10 {
+    padding-top: 10px;
+}

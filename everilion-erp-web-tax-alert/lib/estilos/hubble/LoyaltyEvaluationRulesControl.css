@@ -1,0 +1,100 @@
+﻿  #group_manager {
+        background-color: #EAEAEA;
+        padding: 7px;
+        font-weight: bold;
+    }
+
+    .group_header {        
+        padding: 5px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    .group_header_gray {
+        background-color: #E3E3E3;
+    }
+
+    .group_header_orange {
+        background-color: #F5C69A;
+    }
+
+    .group_header_left {
+        height: 20px;
+    }
+
+    .group_header_right {
+        float: right;
+        margin-top: -20px;
+        height: 20px;
+    }
+
+    .containData {
+        border-bottom: 1px solid #DADADA;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 100%;
+        clear: both;
+        color: #7E7E7E;
+    }
+
+    .columnDataCondition {
+        width: 2%;
+        float: left;
+        font-weight: bold;
+        color: black;
+        font-size: 10pt;
+        text-align: center;
+    }
+
+    .columnData {
+        width: 22%;
+        float: left;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .columnActionData {
+        width: 6%;
+        float: right;
+        text-align:right;
+        padding-right: 5px;
+    }
+
+    .columnData select, .columnData input {
+        width: 90%;
+        color: #7E7E7E;
+    }
+
+    .columnDataCategories {
+        width: 18% !important;
+    }
+
+    .columnDataOperators {
+        width: 11% !important;
+    }
+
+    .columnDataValues {
+        width: 40% !important;
+    }
+
+    .iconHeaderDelete {
+        float:right;
+        margin-right: 80%;
+    }
+
+    .centerIcon {
+        margin-top: 2px;
+    }
+
+    .containConditionOR {
+        text-align:center;
+        margin-top: 20px;
+    }
+
+    .dataValues {
+        display: block;        
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }

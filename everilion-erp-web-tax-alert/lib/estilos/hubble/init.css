@@ -1,0 +1,104 @@
+﻿html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+/*init*/
+.body_list {
+    font-family: "Type", sans-serif;
+    font-style: normal;
+    color: #555;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #FDFDFD;
+}
+
+
+.flotante {
+    position: absolute;
+    z-index: 999;
+    right: 9px;
+}
+
+
+/*central*/
+.bodycentral {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#central {
+    padding: 0;
+    padding-bottom: 0;
+    height: 100%; /* Height of the footer */
+    overflow: hidden;
+}
+
+#footer {
+    /*background: #75797E;*/
+    border-top: solid 1px #ccc;
+    box-sizing: border-box;
+    bottom: 0;
+    height: 55px; /*Height of the footer */
+    position: absolute;
+    width: 100%;
+}
+
+.flotante2 {
+    display: none;
+    position: absolute;
+    z-index: 998;
+    right: 9px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#footerClose {
+    display: none;
+}
+
+.flotante3 {
+    position: absolute;
+    z-index: 998;
+    right: 9px;
+    bottom: 0;
+    margin: 0px;
+    padding: 0px;
+}
+/*searchloyout*/
+.iframesearch {
+    padding: 0 !important; /* iframes should not have padding */
+    overflow: auto !important;
+}
+
+.ui-layout-west {
+    padding: 0; /* west pane has a scrolling content-div, so remove padding */
+}
+
+.ui-layout-east {
+    padding: 0; /* west pane has a scrolling content-div, so remove padding */
+    right: 0px;
+    left: auto;
+}
+
+.ui-layout-center {
+    padding: 0; /* west pane has a scrolling content-div, so remove padding */
+}
+
+#botones {
+    min-height: 100%
+}

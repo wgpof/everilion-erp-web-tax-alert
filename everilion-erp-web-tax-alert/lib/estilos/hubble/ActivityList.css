@@ -1,0 +1,37 @@
+﻿.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+.backgroundBlue {
+    background-color:lightblue;
+}
+
+.backgroundGreen {
+    background-color:lightgreen;
+}
+
+.backgroundYellow {
+    background-color:lightyellow;
+}
+
+.backgroundRed {
+    background-color:indianred;
+}
+
+.backgroundGrey {
+    background-color:lightgrey;
+}
+
+.float-left {
+     float:left; 
+}
+
+.bold {
+    font-weight:bold;
+    font-size:15px;
+}
+.legend {
+    font-weight:bold;
+    font-size:12px;
+}

@@ -1,0 +1,395 @@
+﻿/* 
+ * Everilion Styles
+ * Search Page Styles
+ * Date: 30/12/2013
+ * H
+ */
+
+.body_list {
+    font-family: "Type", sans-serif;
+    font-style: normal;
+    color: #555;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 0;
+    margin-left: 0;
+    background-color: #fff;
+}
+
+.LISTSORT {
+    height: auto;
+    margin-top: 7px;
+    margin-left: 5px;
+    font-family: "Type", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: #555;
+}
+
+.body_list > form {
+    height: 100%;
+}
+
+#LookSection {
+    box-sizing: border-box;
+    height: calc(100% - 50px);
+    margin: 0;
+    overflow: auto;
+    position: absolute;
+    width: 100%;
+}
+
+#FILTERS {
+    background-color: #fff;
+    border-top: solid 1px #ccc;
+    bottom: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 55px;
+    margin: 0px;
+    padding: 14px 10px;
+    position: fixed;
+    text-align: left;
+    width: 100%;
+}
+
+    #FILTERS > table {
+        width: auto;
+    }
+
+.LookHeader {
+    font-family: "Type", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: #555;
+}
+
+#page2 {
+    margin-bottom: 50px;
+}
+
+#page1 {
+    display: none;
+}
+/*
+#page1 input {
+	width:20px;
+	height:20px;
+	vertical-align:top;
+}
+
+#page2 input {
+	width:20px;
+	height:20px;
+	vertical-align:top;
+}
+
+#page1 img {
+	width:20px;
+	height:20px;
+	vertical-align:top;
+}
+
+#page2 img {
+	width:20px;
+	height:20px;
+	vertical-align:top;
+}
+*/
+.Pages {
+    margin: 7px 10px 2px 10px;
+    padding: 7px 2px 2px;
+    width: auto;
+    height: 24px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#SearchResult {
+    width: 100%;
+    font-size: 12px;
+    border-collapse: collapse;
+    color: #686868;
+    font-family: "Type", sans-serif;
+}
+
+    #SearchResult td {
+        padding: 7px 4px;
+        font-size: 13px;
+    }
+
+.TableHeader {
+    color: #000;
+    border-bottom: solid 1px #f2a21e;
+}
+/*PAGINATION*/
+.searchPagination {
+    display: none;
+}
+
+#SearchResult ~ .searchPagination {
+    display: table;
+    margin: 10px 0;
+}
+
+.MAS font, .searchPagination font, .searchPagination a.CELDAREF[href*="Ir"] {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+.searchPagination a.CELDAREF[href*="Ir"] {
+    background: url(/lib/estilos/HUBBLE/images/aceptar_guardar.png) no-repeat center;
+    color: transparent;
+    display: inline-block;
+    height: 26px;
+    vertical-align: middle;
+    width: 26px;
+}
+
+.MAS .CELDA, .MAS a {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+    .MAS a[href*="last"], .MAS a[href*="first"] {
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: 26px;
+    }
+
+    .MAS a[href*="last"] {
+        background-image: url(/lib/estilos/HUBBLE/images/btn_last.png);
+    }
+
+    .MAS a[href*="first"] {
+        background-image: url(/lib/estilos/HUBBLE/images/btn_first.png);
+    }
+
+    .MAS a img[alt="Primero"], .MAS a img[alt="Último"] {
+        visibility: hidden;
+    }
+
+.MAS a {
+    color: transparent;
+    height: 26px;
+    overflow: hidden;
+    width: 26px;
+    margin: 0 3px;
+}
+
+.MAS img[src*="btn_"] {
+    height: 26px;
+    width: 26px;
+}
+
+#SearchResult, .SearchResult {
+    width: 100%;
+    font-size: 12px;
+    font-family: "Type", sans-serif;
+}
+
+    #SearchResult tr:first-child td, .SearchResult tr:first-child td {
+        background-color: #fff;
+        border-bottom: solid 1px #f2a21e;
+        color: #000;
+        font-family: "Type", sans-serif;
+        font-weight: 700;
+    }
+
+    #SearchResult td {
+        border: none;
+    }
+
+    #SearchResult td, .SearchResult tr:first-child td {
+        font-size: 12px;
+        line-height: 12px;
+        padding: 7px 4px;
+    }
+
+.TableHeader {
+    color: #333;
+}
+
+.TableRow1 {
+    background-color: #ffffff;
+}
+
+.TableRow2 {
+    background-color: #f9eede;
+}
+/*
+.Col
+{
+    border-right: 1px solid #c8c8c8;
+}
+*/
+.CellRight {
+    text-align: right;
+}
+
+.CellRef, .CELDAREF {
+    color: #188290;
+    text-align: left;
+    font-size: 12px;
+    border-collapse: collapse;
+}
+
+.CellRefRight {
+    color: #188290;
+}
+
+.CellRefSelected, .CELDAREF:hover, .CELDAREF:active {
+    color: #e35e24;
+    text-align: center;
+}
+
+.None {
+    clear: both;
+}
+
+/*Controls*/
+#searchFilters {
+    width: auto;
+    margin: 10px 0;
+}
+
+input.IN {
+    cursor: text;
+    max-width: 120px;
+}
+
+.IN, #searchFilters .CELDA, #searchFilters input, #searchFilters select, .searchPagination input {
+    height: 26px;
+    margin: 0 4px 0 0;
+    padding: 2px 4px;
+    vertical-align: middle;
+    border-radius: 3px;
+    border: solid 1px #ccc;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+}
+
+    #searchFilters .CELDA[name="texto"], .MAS + td input.CELDA, #searchFilters input[name="texto"] {
+        border-radius: 0;
+        border-width: 0 0 1px;
+        font-style: italic;
+        min-width: 50px;
+    }
+
+#searchFilters img[src*="btn_"] {
+    width: 22px;
+    height: 22px;
+}
+
+.IN:hover, .IN:focus {
+    color: #e35e24;
+}
+
+input.IN {
+    border-width: 0 0 1px;
+    font-style: italic;
+}
+
+.IN + .CELDAREF img, .Button.btSearch {
+    vertical-align: middle;
+}
+
+.Button {
+    height: 22px;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.Pages input {
+    vertical-align: middle;
+}
+
+.Text {
+    font-size: 10.0pt;
+    vertical-align: middle;
+    padding-bottom: 7px;
+    color: #686868;
+}
+
+.Literal {
+    clear: both;
+    float: left;
+    margin: 20px 0 0 10px;
+}
+
+a:hover, a:link, a:visited, a {
+    text-decoration: none;
+}
+
+a, .active {
+    color: #188290;
+}
+
+    a:hover, a.active:hover {
+        color: #e35e24;
+    }
+
+.CEROFILAS {
+    font-Family: "Type", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    padding: 10vw;
+    width: 100%;
+}
+
+.BK_WAIT {
+    font-Family: "Type", sans-serif;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 4px;
+    display: none;
+}
+
+#wait {
+    border: none;
+    float: left;
+    height: 80px;
+    position: relative;
+    width: 80px;
+}
+
+#wait_transparence {
+    -moz-opacity: 0.95;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 40px;
+    filter: alpha(opacity=95);
+    float: left;
+    height: 80px !important;
+    opacity: 0.95;
+    width: 80px;
+}
+
+#text_transparence {
+    top: 0px;
+    border: none;
+    height: 80px !important;
+    left: 0px;
+    position: absolute;
+    width: 80px;
+}
+
+.line_nowrap {
+    white-space: nowrap;
+}
+
+input.CELDA, select.CELDA, textarea.CELDA, td.CELDA {
+    border-color: #ccc;
+    border-radius: 0px;
+    vertical-align: middle;
+}

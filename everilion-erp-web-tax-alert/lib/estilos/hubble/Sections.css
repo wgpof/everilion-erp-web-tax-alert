@@ -1,0 +1,210 @@
+﻿/* 
+ * CSS Ilion
+ * CSS to Sections
+ * Date: 4/2/2012
+ * HM, MD
+ */
+
+ @font-face {
+    font-family: 'Type';
+    src: url('fonts/NotoSans-Regular-webfont.woff') format('woff'),
+         url('fonts/NotoSans-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Type';
+    src: url('fonts/NotoSans-Bold-webfont.woff') format('woff'),
+         url('fonts/NotoSans-Bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+#CollapseSection {
+    height: 30px;
+    right: 0;
+    clear: both;
+}
+
+    #CollapseSection + table {
+        border-collapse: collapse;
+    }
+
+.CollapseButton {
+    float: right;
+    padding: 8px 0;
+    overflow: hidden;
+}
+/*---------->Sections*/
+.Section {
+    min-height: 30px;
+    position: relative;
+    background: #fff;
+    height: auto;
+    margin: 0;
+    text-decoration: none;
+}
+
+#CollapseSection[style*="none"] + .Section, table + .Section {
+    margin-top: 4px;
+}
+
+.SectionPanel > .ui-tabs {
+    margin-top: 0;
+}
+
+.SectionHeader, .SectionHeader2 {
+	background-color: #fcfcfc;
+	border-color: #f0f0f0;
+	border-radius: 3px 3px 0 0;
+	border-style: solid;
+	border-width: 1px;
+	color: #5e5f61;
+	line-height: 12px;
+	margin: 2px 0;
+	padding: 8px 12px;
+	position: relative;
+	text-transform: uppercase;
+}
+    .SectionHeader, .SectionHeader span, .SectionHeader2, .SectionHeader2 span {
+        font-family: "Type", sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+        .SectionHeader:after, .SectionHeader2:after {
+            background: -moz-linear-gradient(left, #1994a4 0%, #9aae04 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #1994a4 0%,#9aae04 100%); /* Chrome10-25,Safari5.1-6 */
+            background: #1994a4; /* Old browsers */
+            background: linear-gradient(to right, #1994a4 0%,#9aae04 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            bottom: 0;
+            content: "";
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1994a4', endColorstr='#9aae04',GradientType=1 ); /* IE6-9 */
+            height: 3px;
+            left: 0;
+            opacity: .8;
+            position: absolute;
+            width: 100%;
+            z-index: 100;
+        }
+
+        .SectionHeader:hover, .SectionHeader:active {
+            color: #e35e24;
+            background-color: #f0f0f0;
+        }
+/*
+.displayed {
+    border-bottom: solid 2px #e35e24;
+}
+
+.displayed:hover {
+    color: #e35e24;
+    background-color: #fff;
+}*/
+/*
+.SectionHeader2
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;		
+	font-weight: normal;
+	font-size: 10.0pt;	
+	color:#555;
+	
+	padding: 3px 0 0 10px;
+	margin:0 0 0 10px;
+	padding-left: 20px;
+	text-transform:uppercase;
+	letter-spacing: 1px;
+}
+*/
+.SectionPanel {
+    padding: 5px 0;
+}
+
+.btn_folder {
+    float: left;
+    height: 14px;
+    left: -5px;
+    position: relative;
+    top: -1px;
+    width: 14px;
+}
+
+/*icon*/
+.btn_ico {
+    vertical-align: middle;
+}
+
+/*textbox*/
+.control_tb {
+    vertical-align: middle;
+}
+
+/*---------->DataTable*/
+.DataTable {
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.TableTitle {
+    padding: 3px 15px 7px 3px;
+    width: 130px;
+    vertical-align: middle;
+}
+
+.TableTitleSub {
+    padding: 3px 15px 7px 3px;
+    width: 115px;
+    vertical-align: middle;
+}
+
+.TableData {
+    padding: 3px 10px 7px 3px;
+    vertical-align: middle;
+    /*line-height:auto;*/
+}
+
+.subsection, .subsection[class*="col-"] {
+    background: #fff;
+    border-color: rgba(154, 174, 4,.5) rgba(25, 148, 164,.5);
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    color: #7e8082;
+    display: block;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 14px 0 10px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.subsectionpanel {
+    padding: 0;
+}
+
+.spacedTable {
+    border-spacing: 20px;
+}
+
+.TDWIDTH {
+    width: 181px;
+}
+
+.TDWIDTHFILTER {
+    width: 16%;
+}
+
+.TDWIDTHCOMP {
+    width: 40%;
+}
+/*AÑADIDO 12/12/2016*/
+.ddl {
+    width: 100%;
+    max-width: 218px;
+}
+
+.txtb {
+    width: 214px;
+}

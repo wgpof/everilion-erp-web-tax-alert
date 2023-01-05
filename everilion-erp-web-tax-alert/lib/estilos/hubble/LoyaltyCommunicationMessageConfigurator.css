@@ -1,0 +1,35 @@
+﻿/* Commune */
+.width100p {
+    width: 100%;
+}
+
+.width85p {
+    width: 85%;
+}
+
+.width15p {
+    width: 15%;
+}
+
+.padding10 {
+    padding: 10px;
+}
+
+/* LoyaltyCommunicationMessageConfigurator */
+.hiddenTextField {
+	position: absolute;
+	top: -5000px;
+	left: -5000px;
+	z-index: -50000;
+}
+
+/* MultilineTextMessageConfiguratorControl */
+.multilineTextbox {
+    width: 99%;
+    resize: none;
+    height: 200px;
+}
+
+.topAlign {
+    vertical-align: top;
+}

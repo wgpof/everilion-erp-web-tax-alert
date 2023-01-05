@@ -1,0 +1,71 @@
+/* 
+ * Everilion Styles
+ * Grid Styles
+ * Date: 09/07/2013
+ * HM, MD
+ */
+
+/*GridView*/
+.GV
+{
+    text-align: left;
+    font-Family:Verdana;
+	font-size: 8.0pt;
+	color: #686868;
+    border-left: 1px solid #c8c8c8;
+}
+
+.RowStyle
+{
+    background-color: #eaeaea;
+}
+
+.SelectedRowStyle
+{
+    background-color: #dfdbd7;
+    font-weight: bold;
+    color: navy;
+}
+
+.PagerStyle
+{
+    background-color: #f5f4f2;
+    color: #333333;
+    border: none;
+}
+
+.HeaderStyle
+{
+    background-color: #ffffff;
+    color: #111111;
+}
+
+.AlternatingRowStyle
+{
+    background-color: #ffffff;
+}
+
+.HeaderCell
+{
+
+    font-weight: normal;
+	border-right: 1px solid #c8c8c8;
+}
+
+.HeaderCellR
+{
+    font-weight: normal;
+	border-right: 1px solid #c8c8c8;
+	text-align: right;
+}
+
+.Cell
+{
+	border-right: 1px solid #c8c8c8;
+}
+
+.CellR
+{	
+	border-right: 1px solid #c8c8c8;
+    text-align: right;
+}

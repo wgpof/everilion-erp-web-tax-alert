@@ -1,0 +1,52 @@
+/* 
+ * Everilion Styles
+ * Master file
+ * Date: 17/04/2013
+ * HM, MD
+ */
+
+/*Object Definition*/
+.data_table_client {
+    vertical-align: middle;
+    border: 1;
+}
+
+.data_client {
+    color: #231f20;
+    display: inline-block;
+    font: 12px "Muli", sans-serif;
+    margin: 10px 0 10px 5px;
+    padding: 0 0 0 0;
+    text-align: left;
+}
+
+    .data_client span {
+        text-transform: uppercase;
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+.data_client_line {
+    padding: 0 0 14px 0;
+    margin: 0 10px 0 5px;
+    border-right: solid 4px #e8e8e8;
+}
+
+
+.linkHead a, .active {
+    color: #1994a4;
+}
+
+.CELDAREFB a:hover, a.active:hover {
+    color: #e35e24;
+}
+
+.line_vertical {
+    text-align: center;
+    height: 18px;
+    width: 3px;
+    border: 0;
+    padding-left: 1px;
+    padding-right: 1px;
+    vertical-align: bottom;
+}

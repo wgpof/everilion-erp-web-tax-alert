@@ -1,0 +1,568 @@
+﻿body 
+{
+    font-family: Arial;
+    cursor: default;
+    line-height: 100%;
+    background-color:white;
+    width: 500px;
+    height: 550px;
+}
+
+.bodyclient
+{
+    font-family: Arial;
+    cursor: default;
+    line-height: 100%;
+    background-color:#f1ece3;
+    width: 500px;
+    height: 445px;
+}
+
+
+#form1
+{
+    background-color:#f1ece3;
+}
+
+.divdatos2 
+{
+    width:100%;
+    float:left;
+}
+
+#divSearch
+{
+    margin:10px;
+    width:100%;
+}
+
+.Search
+{
+    list-style-type:none;
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+    display:inline-block;
+}
+
+.Search li
+{
+    float:left;
+    width:100px;
+    height:40px;
+    position:relative;
+    margin: 10px;
+}
+
+.Search input[type="radio"]
+{
+    display:none;
+}
+
+.Search input[type="radio"] + label
+{
+    display:inline-block;
+    margin:2px;
+    padding:10px 20px;
+    background:#e0e0e0;
+    cursor:pointer;
+
+}
+
+ .Search input[type="radio"]:checked + label 
+ {
+    background-image:none;
+    background:#3F7D00;
+    color:#ebebeb;
+    cursor:auto;
+}
+
+.Search label 
+{
+     z-index:90;
+     border: 1px solid #ddd; 
+     border-radius:8px 8px 8px 8px;
+     line-height:1em;
+     text-align:center;
+     vertical-align:middle;
+     display:inline-block;
+}
+
+.f_find
+{
+    width:100%;
+}
+
+.divinputname 
+{
+    width:60%;
+    height:30px;
+    background-color:white;
+    color: #041e42;
+    border:none;
+    float:left;
+    margin-top:14px;
+    margin-right:24px;
+    margin-bottom:24px;
+}
+
+.botonera
+{
+    padding-top:12px;
+    width:100%;
+}
+
+
+/*Pie*/
+#footer 
+{
+
+}
+
+.title-header 
+{
+    font-size:18px;
+    font-family:Arial;
+    color:#041e42;
+    text-transform: uppercase;
+}
+
+#BtnClose 
+{
+    float:right;
+}
+
+.content 
+{
+    top:5px;
+    clear:both;
+    width: 500px;
+    margin: 5px; 
+    height: 445px;
+    line-height:1.5em;
+    padding: 0 10px 50px 10px;
+    background-color:#f1ece3;
+}
+
+.popup_Container
+{
+    width: 500px;
+    height: 445px;
+}
+
+#virtualtpv
+{
+      background-color:#f1ece3;
+}
+
+.input 
+{
+    font-size:18px;
+    color:#041e42;
+    text-align:right;
+}
+
+.label 
+{
+    font-size:14px;
+    color:#041e42;
+}
+
+.f_ri 
+{
+    float:right;
+}
+
+.f_le 
+{
+    float:left;
+}
+
+.divinput 
+{
+    width:100%; 
+    height:30px;
+    background-color:white;
+    color: #041e42;
+    border:none;
+}
+
+.divdatos 
+{
+    width:49%;
+}
+
+.divdatospp 
+{
+    width:49%;
+}
+
+.divddl 
+{
+    padding:2px 2px 2px 2px;
+}
+
+.title_input 
+{
+    color:#000000;
+    font-size:14px;
+    width:90%;
+    padding: 5px 0px 5px 0px;
+}
+
+.botonera_invoice 
+{
+    padding-top: 168px;
+    /*padding-top:12px;*/
+    /*width:100%;*/
+}
+
+.botonera
+{
+    padding-top:12px;
+    width:100%;
+}
+
+.btnClose
+{
+    background: url(images/ic_btn_close.png) no-repeat;
+    width: 56px;
+    height: 56px;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.btnFindClient 
+{
+    background: url(images/ic_btn_search.png) no-repeat;
+    width: 56px;
+    height: 56px;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+
+.btnAddClient 
+{
+    background: url(images/ic_btn_new.png) no-repeat;
+    width: 56px;
+    height: 56px;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.btnLoadTicket 
+{
+    background: url(images/ic_btn_check.png) no-repeat;
+    width: 56px;
+    height: 56px;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.btnOK 
+{
+    background: url(images/ic_btn_ok.png) no-repeat;
+    width: 56px;
+    height: 56px;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.itemstyle 
+{
+    border:none;
+}
+
+.div_grid
+{
+    table-layout: fixed;
+    width: auto;
+    border-width: 0;
+    padding: 0;
+    border-collapse: collapse;
+    display:none;
+}
+
+.body 
+{
+  overflow: scroll;
+  overflow-x: hidden;
+  width:440px; 
+  height:150px;
+}
+
+.div_grid .headers 
+{
+ width:440px; 
+}
+
+#gvDataClient 
+{
+    background-color:#f1ece3;
+}
+
+.HEADER_CIF
+{
+	font-Family:Tahoma;
+	font-size: 12.0pt;
+    height: 65px;
+    width:100px;
+    border-bottom:solid 1px #00c8ff;
+	text-align: left;
+    background:none;
+    padding-left:20px;
+}
+
+.HEADER_NOMBRE
+{
+	font-Family:Tahoma;
+	font-size: 14.0pt;
+    height: 65px;
+    width:340px;
+    border-bottom:solid 1px #00c8ff;
+	text-align: left;
+    background:none;
+    padding-left:20px;
+}
+
+.grid_celda_cif
+{
+    height: 56px;
+    width:100px;
+    border:solid 1px white;
+}
+
+.grid_button_cif
+{
+    height: 56px;
+    width:100px;
+    font-Family:Tahoma;
+	font-size: 12.0pt;
+    background:none;
+    cursor:pointer;
+    padding-left:10px;
+    text-align:left;
+    white-space: normal;
+    color: #00c8ff;
+}
+
+.grid_celda_nombre
+{
+    height: 56px;
+    width:340px;
+    font-Family:Tahoma;
+	font-size: 12.0pt;
+    border:solid 1px white;
+    background:none;
+    text-align:left;
+    padding-left:10px;
+    color: #808080;
+}
+
+tr:nth-child(odd) 
+{
+    background-color:#ffffff;
+}
+
+tr:nth-child(even) 
+{
+    background-color:#fbfbfb;
+}
+
+.divdetalle 
+{
+    padding-top:5px;
+    width:100%;
+    background-color:white;
+    color: #041e42;
+    border:none;
+}
+
+.litnuminvoice 
+{
+    padding-top:20px;
+    padding-left:12px;
+}
+
+
+/*CREAR CLIENTE*/
+
+.divdatoslargo 
+{
+    width:100%;
+}
+
+.divdatoslargobis 
+{
+    width:100%;
+    padding-left:12px;
+}
+
+.divdatoslargobistop
+{
+    width:100%;
+    padding-left:12px;
+    padding-top:15px;
+}
+
+.divdatoslargobisbotton
+{
+    width:100%;
+    padding-bottom:20px;
+}
+
+.divadressclient 
+{
+    width:100%;
+    padding-top:20px;
+}
+
+.divdatoscorto 
+{
+    width:100%;
+}
+
+.lberror 
+{
+    font-family:Arial;
+    font-size:14px;
+    color:#b11616;
+}
+
+.inputcorto 
+{
+    width:98%;
+    height:100%;
+}
+
+input 
+{
+    width:100%;
+    height:90%;
+    padding-left:4px;
+    border:none;
+}
+
+/*Modal css*/
+.ModalPopupBG 
+{
+    background-color: #666699;
+    filter: alpha(opacity=50);
+    opacity: 0.7;
+    -moz-opacity:0.7;
+    -khtml-opacity:0.7;
+    -webkit-opacity:0.7;    
+}
+
+#modal_backgroundElement 
+{
+    background-color:#666699;
+    opacity:0.7;
+}
+
+.inputError 
+{
+    border:1px;
+    border-color:#b11616;
+}
+
+
+/*DIALOG*/
+ .ui-widget-header,.ui-state-default, ui-button
+ {
+            background:#b9cd6d;
+            border: 1px solid #b9cd6d;
+            color: #FFFFFF;
+            font-weight: bold;
+}
+
+.ui-widget 
+{
+    font-family:Arial;
+}
+
+
+
+ui-icon ui-icon-home 
+{
+  background-image: url('images/icono_alerta.png');
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+.no-close .ui-dialog-titlebar-close 
+{
+    display: none;
+}
+
+.section
+{
+    width:88%;
+}
+
+.iframe
+{
+    width:520px;
+    height:478px;
+}
+
+.divfiltros
+{
+    height: 42px;
+}
+
+.virtualtpv
+{
+    width:500px; 
+    height:445px;
+}
+
+.btn_close
+{
+    height:65px;
+}
+
+.separar
+{
+    padding-left: 2px;
+}
+
+
+/*INOUTCASH*/
+.selectlist
+{
+    width: 100%;
+    height: 100%;
+}
+
+.divTextarea
+{
+    width:98%;
+}
+
+.inputtextarea
+{
+    width:100%;
+    height:100%;
+}
+
+/*PRINT*/
+.divprint
+{
+    top:5px;
+    clear:both;
+    width: 300px;
+    margin: 5px; 
+    height: 300px;
+    line-height:2.5em;
+    padding: 0 10px 50px 10px;
+    background-color:#f1ece3;
+    font-family: Arial;
+    cursor: default;
+    
+}
+
+.divseparator 
+{
+    padding-top: 20px;
+}

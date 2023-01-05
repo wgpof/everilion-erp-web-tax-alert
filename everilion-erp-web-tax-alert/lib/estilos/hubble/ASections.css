@@ -1,0 +1,99 @@
+﻿/* 
+ * CSS Ilion
+ * CSS to Sections
+ * Date: 4/2/2012
+ * HM, MD
+ */
+
+#CollapseSection
+{
+	padding-right: 7px;
+	height: 20px;
+	right: 7px;
+}
+
+.CollapseButton
+{
+	float:right;
+}
+
+/*---------->Sections*/
+.Section
+{
+	min-height:24px;
+	position:relative;
+	background:transparent url(images/folder_bck2.png) repeat-x;
+	height:auto;
+	margin:0 7px 7px 7px;
+	border:1px solid #d2d2d2;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	-moz-border-bottom-left-radius:10px; /* Firefox 3.6 and earlier */
+	-moz-border-bottom-rigtht-radius:10px; /* Firefox 3.6 and earlier */	
+}
+
+.SectionHeader
+{
+	font-family: "CantarellRegular", Arial, Helvetica;
+	font-weight: normal;
+	font-size: 10.0pt;	
+	color:#555;
+	
+	padding: 3px 0 0 10px;
+	background:url(images/folder.png) no-repeat left 6px;
+	margin:0 0 0 10px;
+	padding-left: 20px;
+	text-transform:uppercase;
+}
+
+.SectionPanel
+{
+	padding-left:5px;
+	padding-top: 3px;
+}
+
+.btn_folder
+{
+	position:absolute;
+	height:20px;
+	width:20px;
+	top:2px;
+	right:5px;
+}
+
+/*icon*/
+.btn_ico
+{
+	vertical-align: middle;
+}
+
+/*textbox*/
+.control_tb
+{
+	vertical-align: middle;
+}
+
+/*---------->DataTable*/
+.DataTable
+{
+	padding:12px 20px 7px 20px;
+	color:#333;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	width:100%;
+	word-wrap:break-word;
+}
+
+.TableTitle
+{
+	padding:0px 15px 7px 0;
+	color:#686868;
+}
+
+.TableData
+{
+	padding:0px 15px 7px 0;	
+	
+	/*line-height:auto;*/
+}
+

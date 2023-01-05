@@ -1,0 +1,270 @@
+/* 
+ * Everilion Styles
+ * Master file
+ * Date: 23/04/2014
+ * HM *
+ */
+
+/*Section Definition*/
+.CollapseSection
+{
+	padding-right: 7px;
+	height: 20px;
+	right: 7px;
+}
+
+#collapse_all_button
+{
+    display:none;
+}
+
+.CollapseButton
+{
+	float:right;
+}
+
+.Section
+{
+	min-height:24px;
+	position:relative;
+	background:transparent url(images/folder_bck2.png) repeat-x;
+	height:auto;
+	margin:0 7px 7px 7px;
+	border:1px solid #d2d2d2;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	-moz-border-bottom-left-radius:10px; /* Firefox 3.6 and earlier */
+	-moz-border-bottom-rigtht-radius:10px; /* Firefox 3.6 and earlier */	
+	text-decoration: none;
+}
+
+.SectionHeader
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;		
+	font-weight: normal;
+	font-size: 10.0pt;	
+	color:#555;
+	padding: 3px 0 0 10px;
+	background:url(images/folder.png) no-repeat left 6px;
+	margin:0 0 0 10px;
+	padding-left: 20px;
+	text-transform:uppercase;
+	letter-spacing: 1px;
+}
+
+.SectionHeader2
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;		
+	font-weight: normal;
+	font-size: 10.0pt;	
+	color:#555;
+	margin:0 0 0 10px;
+	padding-left: 20px;
+	text-transform:uppercase;
+	letter-spacing: 1px;
+}
+
+
+.btn_folder
+{
+	position:absolute;
+	height:20px;
+	width:20px;
+	top:2px;
+	right:5px;
+    border:none;
+}
+
+/*Subsections Definition*/
+.Subsection
+{
+	border-bottom: 1px dotted #9BC6CF;
+	color: #444444;
+	font: 11px Tahoma,Arial,Helvetica;
+	margin-top:3px;
+	margin-right: 5px;
+	margin-bottom: 3px;
+	margin-left:-5px;
+	text-transform: uppercase;
+}
+
+/*Table Type*/
+.DataTable
+{
+    margin: 5px 5px 5px 0px;
+	text-align: left;
+    /*table-layout:fixed;Eliminado: produce que los elementos se superpongan*/
+}
+
+
+/*TD Data Styles*/
+.FL /*FieldLabel*/
+{	
+    font-Family:Tahoma;
+	font-size: 9.0pt;
+	color: #686868;
+    width: 185px;
+}
+
+.FD /*FieldData*/
+{
+    font-Family:Tahoma;
+	font-size: 9.0pt;
+	color: #333;
+    width: 40%;
+}
+
+.FM /*FieldMandatory*/
+{
+	color: #2e9fbd;
+    font-weight: bold;
+    width: 5px;
+    overflow: hidden;
+    padding-top: 4px;
+}
+
+.FD_Bold /*FieldDataBold*/
+{
+    font-Family:Tahoma;
+	font-size: 9.0pt;
+	color: #333;
+    width: 40%;
+    font-weight: bold;
+}
+
+.TB1 /*TextBox Lenght 1*/
+{
+    font-Family:Tahoma;
+	font-size: 9.0pt;
+    width: 75px;
+}
+
+.TB2 /*TextBox Lenght 2*/
+{
+    font-Family:Tahoma;
+	font-size: 9.0pt;
+    width: 150px;
+}
+
+.TB3 /*TextBox Lenght 3*/
+{
+    font-Family:Tahoma;
+	font-size: 9.0pt;
+    width: 300px;
+}
+
+.DBL1 /*DropBoxList Lenght 1*/
+{
+    font-Family:Tahoma;
+	font-size: 9.0pt;
+    width: 75px;
+}
+
+.DBL2 /*DropBoxList Lenght 2*/
+{
+    font-Family:Tahoma;
+	font-size: 9.0pt;
+    width: 150px;
+}
+
+.DBL3 /*DropBoxList Lenght 3*/
+{
+    font-Family:Tahoma;
+	font-size: 9.0pt;
+    width: 300px;
+}
+
+.FD a /*FieldData Link*/
+{
+    font-Family:Tahoma;
+	font-size: 9.0pt;
+	color:#3fa9c3;
+    text-decoration:none;
+}
+
+/*HTML Controls*/
+a:hover, a:link, a:visited, a 
+{
+	text-decoration:none;
+}
+
+/*For user controls*/
+.CELDA7
+{
+	font-Family:Tahoma;
+	font-size: 8.0pt;
+	color: #333;
+}
+
+/*extralinks *** valorar si quitar de aquí y poner aparte2*/
+
+a:hover, a:link, a:visited, a 
+{
+	text-decoration:none;
+}
+
+.line_horizontal
+{
+	margin:-2px 0 0 0;
+	border-top:3px solid #C5EBF3;
+}
+
+.el0
+{
+    text-align: center;
+    font:12px Tahoma,"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+
+.el1
+{
+    width: 150px;
+    color: #00ff00;
+    float: left;
+}
+
+.el1 a
+{
+    color:#2589a2;
+}
+
+.el1 a:hover, .el1 span, a.active:hover
+{
+    color:#ffac5d;
+}
+
+.el2
+{
+    width: 3px;
+    color: #ffac5d;
+    float: left;
+}
+
+.endel
+{
+    clear:both;
+}
+
+/*Provisionales para campos personalizados*/
+.ENCABEZADOL
+{
+	font-Family:Tahoma;
+	font-size: 9.0pt;
+	text-align: left;
+	color:#686868;
+}
+
+.CELDAR7
+{
+	font-Family:Tahoma;
+	font-size: 8.0pt;
+	text-align: right;
+	color: #333;
+}
+
+.CELDAL7
+{
+	font-Family:Tahoma;
+	font-size: 8.0pt;
+	text-align: left;
+	color: #333;
+}

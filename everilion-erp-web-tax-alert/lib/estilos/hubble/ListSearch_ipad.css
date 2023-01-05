@@ -1,0 +1,198 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+a:hover, a:link, a:visited, a
+{
+	text-decoration:none;
+	
+}
+
+a, .active{
+	color:#2589a2;
+}
+a:hover, a.active:hover{
+	color:#ffac5d;
+	}
+	
+.body_list   
+{
+    font-family:Tahoma, Geneva, sans-serif;
+	font-style:normal;
+	color:#333;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;	
+	
+	 margin-top: 0; 
+	margin-left:0;
+	background-color:#f2f2f2;
+
+}
+
+#LookSection
+{    
+	min-height:24px;
+	
+	background:transparent url(images/look_bck.png) repeat-x;
+	height:auto;
+	margin:0 0px 0px 0px;
+	
+	
+}
+
+.LookHeader
+{
+	font-family: "Lucida Sans Unicode", Arial, Helvetica;
+	font-weight: normal;
+	font-size: 10.0pt;	
+	color:#555;
+	
+	/*padding: 3px 0 0 0;*/
+	/*background: #54575A;*/
+	/*margin:0 0 0 10px;*/
+	/*padding-left: 20px;*/
+}
+
+#FILTERS
+{
+	margin:0px;
+	padding:7px 0 0 10px;
+	height:auto;
+	text-align: left;
+	display:inline-block;
+	
+	
+}
+
+.Pages
+{
+	margin:10px 10px 0 10px;
+	padding: 2px;
+	width:auto;	
+	height:24px;
+	text-align: center;		
+    /*border: 1px solid #ff0000;*/
+}
+
+#SearchResult
+{
+    /*margin: 10px;*/
+    width: 100%;
+    /*text-align: center;*/
+    font-size: 8.0pt;
+    border-collapse: collapse;
+}
+
+#SearchResult td
+{
+    /*border-right: 1px solid #00FF00;*/
+    margin: 3px;
+    padding: 4px;
+}
+
+.TableHeader
+{
+    /*
+    color: #686868;
+    font-weight: bold;    */
+    color: #333;
+}
+
+.TableRow1
+{
+    color: #686868;
+    background-color: #ffffff;
+    /*font-weight: bold;    */
+}
+
+.TableRow2
+{
+    color: #686868;
+    background-color: #eaeaea;
+    /*font-weight: bold;    */
+}
+
+.Col
+{
+    border-right: 1px solid #c8c8c8;
+}
+
+.CellRef
+{
+    color: #2589a2;
+    text-align: left;
+}
+
+.CellRefSelected
+{
+    color: #d68128;
+    text-align: center;
+}
+
+.CellRight
+{
+    text-align: right;
+}
+
+.CellLeft
+{
+    text-align: left;
+    
+}
+
+.ECellLeft
+{
+    text-align: left;
+	color:#000000;
+}
+
+.ECellCenter
+{
+    text-align: center;
+    color:#000000; 
+}
+
+
+.CellCenter
+{
+    text-align: center;
+}
+
+
+.None
+{
+    clear: both;
+}
+
+.Text
+{
+    /*font-Family: Verdana;*/
+	font-size: 10.0pt;
+	vertical-align: 30%;
+	color: #686868;
+}
+/*---------->Controls*/
+/*TextBox, DropDownList*/
+.IN
+{
+	font-Family: Verdana;
+	font-size: 8.0pt;
+	width: 80px;
+	vertical-align: 50%;
+}
+
+/*Buttons*/
+.Button
+{
+	margin-right: 10px;
+}
+
+.ButtonR
+{	
+	float:right;
+}
+
+.CELL
+{
+	 color:#686868;
+}

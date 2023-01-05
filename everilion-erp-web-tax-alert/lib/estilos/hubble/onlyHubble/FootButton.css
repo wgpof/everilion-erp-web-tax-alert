@@ -1,0 +1,47 @@
+﻿@charset "utf-8";
+
+input, div[class*="Button"], [class*="Button"], .INPUT {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+div[class*="Button"], a[class*="Button"] {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: .2em;
+    color: #231f20;
+    cursor: pointer;
+    font: bold 14px/normal 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    margin: 0 5px 0 0;
+    padding: 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#BUTTONS_CENTER_ASP td:only-child div[class*="Button"] {
+    margin-right: 0
+}
+
+[class*="Button"].colored, #idcancel div[class*="Button"], #iddelete div[class*="Button"], a[name*="cancel"] div[id*="button"] {
+    background: #ac002b;
+    color: #fff;
+    border: solid 1px #ac002b;
+}
+
+    a[class*="Button"]:hover, a[class*="Button"]:active, div[class*="Button"]:hover, div[class*="Button"]:active, div[class*="Button"]:focus, a[name*="cancel"] div[id*="button"]:hover {
+        background-color: #f0f0f0 !important;
+        color: #e35e24 !important;
+        outline: none !important;
+        text-decoration: none;
+    }
+
+.INPUT {
+    font-size: 9.0pt;
+    cursor: pointer;
+    border: solid 1px #bbb;
+    border-radius: 4px;
+    padding: .2em;
+}
+
+    .INPUT:hover {
+        color: #e35e24;
+    }

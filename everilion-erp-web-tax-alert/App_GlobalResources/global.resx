@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AltoVentana" xml:space="preserve">
+    <value>400</value>
+  </data>
+  <data name="AltoVentana2" xml:space="preserve">
+    <value>600</value>
+  </data>
+  <data name="AnchoVentana" xml:space="preserve">
+    <value>750</value>
+  </data>
+  <data name="AnchoVentana2" xml:space="preserve">
+    <value>950</value>
+  </data>
+  <data name="color_titulo_pagina" xml:space="preserve">
+    <value>#FF7310</value>
+  </data>
+  <data name="color_titulo_tabla" xml:space="preserve">
+    <value>#D0C9C1</value>
+  </data>
+  <data name="LitAnyadir" xml:space="preserve">
+    <value>Añadir nuevo registro</value>
+  </data>
+  <data name="LitBorrar" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="LitCancelar" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="LitCargandoApi" xml:space="preserve">
+    <value>CARGANDO APLICACIÓN. ESPERE POR FAVOR......</value>
+  </data>
+  <data name="LitConfirmBorrar" xml:space="preserve">
+    <value>¿Está seguro de borrar el registro actual? No se podrá recuperar.</value>
+  </data>
+  <data name="LitContiene" xml:space="preserve">
+    <value>Contiene</value>
+  </data>
+  <data name="LitEditar" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="LitGuardar" xml:space="preserve">
+    <value>Guardar datos</value>
+  </data>
+  <data name="LitIgual" xml:space="preserve">
+    <value>Igual a</value>
+  </data>
+  <data name="LitLeftPosBT" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LitMsgAvisoLegal" xml:space="preserve">
+    <value>Aviso legal</value>
+  </data>
+  <data name="LitMsgErrorActualizarMotivo" xml:space="preserve">
+    <value>No se ha podido actualizar el motivo seleccionado.</value>
+  </data>
+  <data name="LitMsgErrorElimnarMotivo" xml:space="preserve">
+    <value>No se ha podido eliminar el motivo seleccionado.</value>
+  </data>
+  <data name="LitMsgErrorExisteMotivo" xml:space="preserve">
+    <value>El motivo indicado ya existe</value>
+  </data>
+  <data name="LitMsgErrorInsertarMotivo" xml:space="preserve">
+    <value>No se ha podido insertar el motivo seleccionado.</value>
+  </data>
+  <data name="LitMsgInformacionGeneral" xml:space="preserve">
+    <value>Información general</value>
+  </data>
+  <data name="LitMsgNoResultadosBusqueda" xml:space="preserve">
+    <value>No hay resultados para la búsqueda solicitada</value>
+  </data>
+  <data name="LitMsgResolucion" xml:space="preserve">
+    <value>Resolución mínima de 800x600 © Telefónica S.A.U - Todos los derechos reservados</value>
+  </data>
+  <data name="LitPieListados" xml:space="preserve">
+    <value>E-GESTION FACTURA CETEL:Sistema de Gestión Comercial E*GESTICET</value>
+  </data>
+  <data name="LitTermina" xml:space="preserve">
+    <value>Termina en</value>
+  </data>
+  <data name="LitTitCamposPerso" xml:space="preserve">
+    <value>Campos Personalizables</value>
+  </data>
+  <data name="LitTodos" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="LitTopPosBT" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LitVacioFechaDesde" xml:space="preserve">
+    <value>El campo fecha desde no puede estar vacío.</value>
+  </data>
+  <data name="LitVacioFechaHasta" xml:space="preserve">
+    <value>El campo fecha hasta no puede estar vacío.</value>
+  </data>
+  <data name="LitVerCliente" xml:space="preserve">
+    <value>Ver Cliente</value>
+  </data>
+  <data name="LitVerProyecto" xml:space="preserve">
+    <value>Ver Proyecto</value>
+  </data>
+  <data name="MostrarPie" xml:space="preserve">
+    <value>NO</value>
+    <comment>Si,No</comment>
+  </data>
+  <data name="OBJProyectos" xml:space="preserve">
+    <value>('070')</value>
+  </data>
+  <data name="ONJClientes" xml:space="preserve">
+    <value>('013', '338')</value>
+  </data>
+  <data name="App_themes" xml:space="preserve">
+    <value>/lib/estilos/</value>
+  </data>
+  <data name="LitTeclaCancelar" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="LitTeclaGuardar" xml:space="preserve">
+    <value>113</value>
+  </data>
+  <data name="TeclaBuscar" xml:space="preserve">
+    <value>118</value>
+  </data>
+  <data name="PageSize" xml:space="preserve">
+    <value>20</value>
+  </data>
+</root>

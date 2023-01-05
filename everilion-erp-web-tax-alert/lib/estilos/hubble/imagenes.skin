@@ -1,0 +1,65 @@
+<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+--%>
+
+
+
+<%--
+IMAGENES DE BOTONERA
+--%>
+<asp:ImageButton Runat="server" ImageUrl="images/btn_ico_search.png" SkinID="buscarIco" Width="20" Height="20" />
+<asp:ImageButton Runat="server" ImageUrl="images/borra_fila.png" SkinID="aspaRoja" Width="20" Height="20" />
+<asp:ImageButton Runat="server" ImageUrl="images/btn_search.png" SkinID="btn_search.png" Width="20" Height="20" />
+<asp:ImageButton Runat="server" ImageUrl="images/anadir_documento.png" SkinID="addIco" Width="20" Height="20" />
+<asp:ImageButton Runat="server" ImageUrl="images/aceptar_guardar.png" SkinID="saveIco" Width="20" Height="20" />
+<asp:ImageButton Runat="server" ImageUrl="images/aceptar_guardar.png" SkinID="saveIco16" Width="16" Height="16" />
+<asp:ImageButton Runat="server" ImageUrl="images/borra_fila.png" SkinID="deleteIco16" Width="16" Height="16" />
+<asp:ImageButton Runat="server" ImageUrl="images/add_fila.png" SkinID="add_filaIB" Width="20" Height="20" />
+<asp:ImageButton Runat="server" ImageUrl="images/add_item.png" SkinID="add_itemIB" Width="20" Height="20" />
+<asp:ImageButton Runat="server" ImageUrl="images/editar.png" SkinID="editarIB" Width="20" Height="20" />
+<asp:ImageButton Runat="server" ImageUrl="images/guardar.png" SkinID="guardarIB" Width="20" Height="20" />
+<asp:ImageButton Runat="server" ImageUrl="images/help.png" SkinID="helpIB" Width="16" Height="16" />
+<asp:ImageButton Runat="server" ImageUrl="images/impot_data.png" SkinID="impot_data.png" Width="20" Height="20" />
+<asp:ImageButton Runat="server" ImageUrl="images/synchronize_process.png" SkinID="synchronize_process.png" Width="20" Height="20" />
+<asp:ImageButton Runat="server" ImageUrl="images/icono_aviso.jpg" SkinID="alertIco" />
+<asp:ImageButton Runat="server" ImageUrl="images/icono_usuarios.gif" SkinID="userIco" />
+<asp:ImageButton Runat="server" ImageUrl="images/unchecked.gif" SkinID="unchecked" />
+<asp:ImageButton Runat="server" ImageUrl="images/checked.gif" SkinID="checked" />
+<asp:ImageButton Runat="server" ImageUrl="images/Calendar_scheduleHS.png" SkinID="calendar" />
+<asp:ImageButton Runat="server" ImageUrl="images/anadir.png" SkinID="select" />
+<asp:ImageButton Runat="server" ImageUrl="images/quitar.png" SkinID="unselect" />
+<asp:ImageButton Runat="server" ImageUrl="images/busqueda.png" SkinID="search" />
+<asp:ImageButton Runat="server" ImageUrl="images/busqueda.png" SkinID="searchIco" Width="16" Height="16" />
+<asp:ImageButton Runat="server" ImageUrl="images/anotar_caja.png" SkinID="addCashIco" Width="20" Height="20" />
+<asp:ImageButton Runat="server" ImageUrl="images/btn_x2.png" SkinID="btn_x2" Width="20" Height="20" />
+<asp:ImageButton Runat="server" ImageUrl="images/cambio_ejercicio.png" SkinID="limpiar"  Width="20" Height="20" />
+<asp:ImageButton Runat="server" ImageUrl="images/nuevo_cliente.png" SkinID="aceptarCandidato"  Width="20" Height="20" />
+<asp:ImageButton Runat="server" ImageUrl="images/pag_anterior.png" SkinID="paginaAnterior"  Width="20" Height="20" />
+<asp:ImageButton Runat="server" ImageUrl="images/lock.png" SkinID="lock"  Width="20" Height="20" />
+<asp:ImageButton Runat="server" ImageUrl="images/openlock.png" SkinID="openlock"  Width="20" Height="20" />
+
+
+
+<asp:Image Runat="server" ImageUrl="images/help.png" SkinID="helpIM" Width="20" Height="20" />
+<asp:Image Runat="server" ImageUrl="images/btn_collapse_all.png" SkinID="btn_collapse_all.png" />
+<asp:Image Runat="server" ImageUrl="images/btn_nocollapse_all.png" SkinID="btn_nocollapse_all.png" />
+<asp:Image Runat="server" ImageUrl="images/btn_collapse_footer.png" SkinID="btn_collapse_footer.png" />
+<asp:Image Runat="server" ImageUrl="images/btn_expand_footer.png" SkinID="btn_expand_footer.png" />
+<asp:Image Runat="server" ImageUrl="images/btn_first.png" SkinID="btn_first.png" />
+<asp:Image Runat="server" ImageUrl="images/btn_prev.png" SkinID="btn_prev.png" />
+<asp:Image Runat="server" ImageUrl="images/btn_last.png" SkinID="btn_last.png" />
+<asp:Image Runat="server" ImageUrl="images/btn_follow.png" SkinID="btn_follow.png" />
+<asp:Image Runat="server" ImageUrl="images/AspaNegra.gif" SkinID="aspaNegra" />
+<asp:Image Runat="server" ImageUrl="images/ok.gif" SkinID="ok" />
+<asp:Image Runat="server" ImageUrl="images/GenerarInforme.gif" SkinID="generateReport" />

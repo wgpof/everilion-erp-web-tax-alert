@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Share.master.cs" Inherits="ShareMasterPage.Share" EnableTheming="true"%>
+<%@ Register Assembly="Interfaz" Namespace="Controles" TagPrefix="cc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+  <title>Ilion SaaS</title>
+  <asp:Literal ID="LitStyles" runat="server"></asp:Literal>
+  <asp:Literal ID="LitJs" Text="" EnableViewState="false" runat="server"></asp:Literal>
+</head>
+<script language="javascript" type="text/javascript">
+    // Hide frame of button, 100% screen 
+    if (parent.document.body != null) parent.document.body.rows = "100%,*";
+
+    function btnSearch() {
+        var value = document.getElementById('<%=txtValue.ClientID %>').value;
+        value = value.replace("\"", " ");
+        value = value.trim();
+        var e = document.getElementById('<%=typeFilter.ClientID %>');
+        var filter = e.options[e.selectedIndex].value;
+        e = document.getElementById('<%=field.ClientID %>');
+        var field = e.options[e.selectedIndex].value;
+
+        var idObject = document.getElementById('<%=vId.ClientID %>').value;
+        SearchPage("/<%=ConfigurationManager.AppSettings["CarpetaProduccionNET45"]%>/ShareSearch/Search.aspx?id=" + idObject + "&v=" + value + "&ky=" + filter + "&fld=" + field, 1);
+        return false;
+    }
+
+    window.addEventListener("load", function hideFilterMaster() {
+        var classNameLeft = parent.parent.document.getElementById('left').className;;
+        if (classNameLeft == "search-panel open") {
+            document.getElementById("FILTERS_MASTER").setAttribute("style", "display:none")
+        }
+    })
+
+</script>
+<body class="body_master">
+    <form id="fMaster" runat="server">
+        <asp:ScriptManager id="smMaster" runat="server" EnablePartialRendering="true" EnableScriptGlobalization="true" ></asp:ScriptManager>
+        <table width="100%" border="0">
+        <tr>
+            <td>
+                <cc1:ControlCabecera id="cabecera" runat="server" colorPagina="" DSNIlion="" dsn_cliente="" ncliente="" usuario="" viene=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <asp:ContentPlaceHolder id="wfInterface" runat="server"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <asp:UpdatePanel id="up_bt" runat="server" UpdateMode="Conditional">
+                <ContentTemplate>
+                    <div id = "PageFooter">
+                        <div id="CollapseFooter" class="buttonHide">
+                            <a class="ButtonR" id="hide" href ="#" ><asp:Image runat="server" id="footerClose" EnableViewState="false" /></a>
+                        </div>
+                        <div id="CollapseFooter" class="buttonShow">
+                            <a class="ButtonR" id="show" href ="#" ><asp:Image runat="server" id="footerOpen" EnableViewState="false" /></a>
+                        </div>   
+                        <div id="ControlPanelFooter">
+                            <table id="BUTTONS">
+                                <tr>
+                                    <td>        
+                                        <cc1:ButtonIlion ID="ibAdd" runat="server" OnClick="ibAdd_Click" />
+                                    </td>
+                                    <td>
+                                        <cc1:ButtonIlion ID="ibSave" runat="server" OnClick="ibSave_Click" />
+                                    </td>
+                                    <td>
+                                        <cc1:ButtonIlion ID="ibEdit" runat="server"  OnClick="ibEdit_Click" />
+                                    </td>
+                                    <td>
+                                        <cc1:ButtonIlion ID="ibCancelAdd" runat="server" OnClick="ibCancelAdd_Click"/>                                        
+                                    </td>
+                                    <td>
+                                        <cc1:ButtonIlion ID="ibDelete" runat="server" OnClick="ibDelete_Click"/>
+                                    </td>
+                                    <td>
+                                        <cc1:ButtonIlion ID="ibPrint" runat="server" OnClick="ibPrint_Click"/>
+                                    </td>
+                                </tr>
+                            </table>
+                            <div runat="server" id="FILTERS_MASTER" clientidmode="Static" class = "FILTERS_MASTER">
+                                <asp:HiddenField id="vId" value="" runat="server" />
+                                <asp:DropDownList id="field" runat="server" CssClass="IN_S"></asp:DropDownList>
+                                <asp:DropDownList id="typeFilter" runat="server" CssClass="IN_S"></asp:DropDownList>
+	                            <asp:TextBox id="txtValue" CssClass="IN_S" MaxLength="20"  runat="server" />
+	                            <asp:ImageButton id="ibSearch" runat="server" CssClass="BUTTON_S" EnableViewState="false" OnClientClick="javascript: return btnSearch()"/>
+                            </div>
+                            <cc1:ControlPie ID="pie" aviso="aviso" info="info" resolucion="resolucion" runat="server" />
+                        </div>
+                        </div>
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+            </td>
+        </tr>
+        </table>
+    </form>
+</body>
+</html>

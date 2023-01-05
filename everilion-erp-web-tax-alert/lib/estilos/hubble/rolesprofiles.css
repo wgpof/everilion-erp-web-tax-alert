@@ -1,0 +1,75 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.edit-role-selectable div[id*="UpdatePanelModules"], .edit-role-selectable div[id*="PanelSelectAllModules"], .edit-role-selected div[id*="UpdatePanelMenus"], .edit-role-selected div[id*="UpdatePanelLegends"], .edit-role-selected div[id*="UpdatePanelSubMenus"]{
+    float:right;
+    clear: both;
+    width:34px;
+    height:34px;
+    text-align: center;
+    position:relative;
+}
+.edit-role-selected div[id*="UpdatePanelMenus"], .edit-role-selected div[id*="UpdatePanelLegends"], .edit-role-selected div[id*="UpdatePanelSubMenus"]{
+    position: relative;
+    z-index: 110;
+}
+.edit-role-selectable div[id*="PanelRepeaterAllModules"]{
+    width:100%;
+}
+.edit-role-selectable [id*="RepeaterAllModules"], .edit-role-selectable [id*="lblAllSelection"], .edit-role-selected [id*="lblLeyenda"]{
+    display: inline-block;
+}
+.edit-role-selectable [id*="RepeaterAllModules"], .edit-role-selectable [id*="PanelSelectedAllModules"], .edit-role-selected [id*="lblLeyenda"]{
+    padding: 8px 0;
+    font-size: 13px;
+}
+.edit-role-selectable [id*="UpdatePanelModules"]{
+    padding: 0;
+}
+.edit-role-selectable [id*="btnConfigureModule"]{
+    min-height: 0;
+    min-width: 0;
+    padding:0;
+}
+.edit-role-selected .SectionHeader{
+	background-color: #fff;
+    border-radius: 0;
+    border:none;
+}
+.edit-role-selected .SectionHeader:after{
+    background: #f2a21e;
+    height: 1px;
+}
+.edit-role-selected .Section .Section, .edit-role-selected .Section .Section .SectionPanel{
+    padding:0 10px;
+    box-sizing: border-box;
+}
+.edit-role-selected .Section .Section .SectionHeader, .edit-role-selected .Section .Section .SectionHeader span{
+    font-size: 12px;
+}
+.edit-role-selected .Section .Section .SectionHeader:after{
+    background: #ccc;
+    height: 1px;
+}
+.edit-role-selected [id*="lblLeyenda"]{
+    font-family: "Muli",sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    display: block;
+    color: #4c4c4c;
+    padding-bottom: 2px;
+}
+.modify-profile {
+}
+.align-items{
+    height:19px;
+}
+
+input[type="checkbox"][id*="RepeaterAllModules"] {
+    right: 0;
+    left: auto;
+}
+
+.edit-role-selectable label[id*="RepeaterAllModules"]{padding:8px 5px 8px 30px;margin-bottom: -3px;margin-top: 0px;}
+
+.edit-role-selectable label[id*="forChkAllModules"]{margin-bottom: -3px;margin-top: 0px;}

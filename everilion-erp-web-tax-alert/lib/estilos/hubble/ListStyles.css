@@ -1,0 +1,160 @@
+/* Listas */
+
+.list li {
+    font-size: 12px;
+    padding: 5px 15px;
+    list-style-type: none;
+}
+
+ul.list {
+    padding: 0;
+    margin: 0;
+}
+
+    ul.list li {
+        box-sizing: border-box;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+
+        ul.list li:before {
+            background-color: #f2a21e;
+            border-radius: 8px 0 8px 8px;
+            content: "";
+            height: 8px;
+            left: 0;
+            margin: 0;
+            position: absolute;
+            top: 10px;
+            transform: rotate(45deg);
+            width: 8px;
+        }
+
+.inline-list li {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+}
+
+.column-list {
+    column-count: 3;
+    column-gap: 5px;
+    column-width: 300px;
+}
+
+/* MULTISELECT */
+
+.ms-container .ms-list {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    position: relative;
+    height: 100%;
+    min-height: 340px;
+    padding: 0;
+    overflow-y: auto;
+    transition: height .5s;
+}
+
+.ms-container ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+.ms-container .ms-optgroup-container {
+    width: 100%;
+}
+
+.ms-container .ms-selectable, .ms-container .ms-selection {
+    float: left;
+    width: 45%;
+}
+
+.ms-container .ms-selection {
+    float: right;
+}
+
+
+    .ms-container .ms-selectable li.ms-elem-selectable,
+    .ms-container .ms-selection li.ms-elem-selection {
+        border-bottom: 1px #eee solid;
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+
+    .ms-container .ms-selectable li.ms-hover,
+    .ms-container .ms-selection li.ms-hover, .ms-container .ms-selectable li:hover, .ms-selection li:hover {
+        cursor: pointer;
+        color: #fff;
+        text-decoration: none;
+        background-color: #e35e24;
+    }
+
+    .ms-container .ms-selectable li.disabled,
+    .ms-container .ms-selection li.disabled {
+        background-color: #eee;
+        color: #aaa;
+        cursor: text;
+    }
+
+.ms-container .search-input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.ms-container .custom-header {
+    padding: 1em 0;
+}
+
+/* END MULTISELECT */
+
+@media (max-width: 1024px) {
+    /* LIST */
+    .column-list {
+        column-count: 2;
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+    }
+    /* END LIST */
+}
+
+
+
+.ui-loader {
+    display: none;
+}
+
+.ms-container .ms-selection {
+    float: right;
+    margin-right: 15px;
+}
+
+.ms-container .ms-list {
+    height: 340px;
+}
+
+.multiselect-hidden-field {
+    display: none;
+}
+
+.multiselect-visible-field { /* name reserved */
+}
+
+.ms-font-size {
+    font-size: 12px !important;
+}
+
+.custom-padding-selectable {
+    padding: 2em 0 !important;
+}

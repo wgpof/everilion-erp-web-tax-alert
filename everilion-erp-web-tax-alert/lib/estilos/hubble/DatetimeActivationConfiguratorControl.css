@@ -1,0 +1,81 @@
+﻿.DateTimeActivationConfiguratorControl-col4{
+    max-width: 50%;
+    min-width: 28%;
+    float: left;
+    display: inline-block;
+    padding-right:3%;
+}
+
+.DateTimeActivationConfiguratorControl-dateContainer{
+    width: 32%;
+}
+
+.DateTimeActivationConfiguratorControl-dateElementLeft{
+    width: 42%;
+    float: left;
+    display: inline-block;
+    padding-left: 3%;
+}
+
+.DateTimeActivationConfiguratorControl-dateElementRight{
+    width: 52%;
+    float: left;
+    display: inline-block;
+    padding-left: 3%;
+}
+
+.DateTimeActivationConfiguratorControl-divContainer .CELDA:first-child {
+    margin-bottom: 1em;
+}
+
+.DateTimeActivationConfiguratorControl-rightContainer{
+    width: 57%;
+    float: left;
+    display: inline-block;
+}
+
+.DateTimeActivationConfiguratorControl-ul {
+    margin: -0.5em 0 0 0;
+    padding: 0;
+    width: 100%;
+}
+
+.DateTimeActivationConfiguratorControl-ul > li{
+    width: 11%;
+    float: left;
+    height: 1.25em;
+    padding: 0.5em 0;
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+}
+
+.DateTimeActivationConfiguratorControl-ul > li:not(:last-of-type) {
+    margin-right: 1%;
+}
+
+.DateTimeActivationConfiguratorControl-weekdayHourTitle{
+    width: 29%;
+    float: left;
+    display: inline-block;
+}
+
+.DateTimeActivationConfiguratorControlActive {
+    background-color: #F69438;
+}
+
+.DateTimeActivationConfiguratorControlActive:hover:not(.DateTimeActivationConfiguratorControlBrowse) {
+    background-color: #c36309;
+}
+
+.DateTimeActivationConfiguratorControlNotActive{
+    background-color: #D2D2D2;
+}
+
+.DateTimeActivationConfiguratorControlNotActive:hover:not(.DateTimeActivationConfiguratorControlBrowse) {
+    background-color: #a6a6a6;
+}
+
+.DateTimeActivationConfiguratorControlTextBox {
+    width: 4em;
+}

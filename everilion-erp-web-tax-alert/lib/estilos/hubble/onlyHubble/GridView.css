@@ -1,0 +1,75 @@
+.searchResult {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.searchResult th {
+        border-bottom: solid 1px #f2a21e;
+        color: #000;
+        font-family: "Muli", sans-serif;
+        font-size: 1em;
+        font-weight: 700;
+        padding-bottom: .5em;
+        text-align: left;
+    }
+
+
+
+div.showMore {
+    position: fixed;
+    bottom: 5px;
+    left: auto;
+    background: rgba(255,255,255,.7);
+    border-radius: .5em;
+    padding: .5em;
+}
+
+.searchResult a, .searchResult a.secondary {
+    font-size: 1em;
+}
+
+.searchResult td {
+    padding: .5em;
+    font-size: 1em;
+    text-align: left;
+}
+
+.searchResult th {
+    padding: .5em;
+}
+
+.searchResult tr:nth-child(odd) {
+    background: #fdfdfd;
+}
+
+.section-table td {
+    font-size: inherit;
+    border: 0
+}
+
+.section-table td:nth-child(odd) {
+    width: 10%
+}
+
+.section-table td:nth-child(even) {
+    width: 23.333%
+}
+
+.section-table tr:nth-child(even), .section-table tr:nth-child(odd), .section-table tr {
+    background: inherit;
+}
+
+.searchResult tr:nth-child(odd), .searchResult tbody tr.odd {
+    background: #fdfdfd;
+}
+
+.emptyTable td {
+    height: 400px;
+    vertical-align: middle;
+    text-align: center;
+    background: #fff;
+}
+
+.searchResult tr:nth-child(even), .searchResult tbody tr.even {
+    background: #fcecd2;
+}

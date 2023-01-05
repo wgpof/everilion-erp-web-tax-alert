@@ -1,0 +1,216 @@
+/* Acceso Rapido */
+/* modo antiguo
+.wNombre {
+    width: 41.66666667%;
+}
+
+.wMenu, .wsubMenu, .wPagina {
+    width: 25%;
+}
+
+.wImg {
+    width: 8.33333333%;
+}
+
+.wImg{
+    padding-top:15px;
+}
+
+.wImg, .wMenu, .wsubMenu, .wPagina, .wNombre {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.wMenu, .wsubMenu, .wPagina{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.wNombre{
+    padding-bottom: 10px;
+}
+
+.wImg{
+    padding-bottom: 10px;
+}
+*/
+
+.wUsuario {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+}
+
+.wMenu {
+    display: inline-block;
+    vertical-align: top;
+    width: 39.5%;
+}
+
+.wsubMenu {
+    display: inline-block;
+    vertical-align: top;
+    width: 39.5%;
+}
+
+.wPagina {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+.wNombre {
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
+}
+
+.wImg {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 4%;
+    padding-bottom: 6px;
+}
+
+.wMenu, .wsubMenu, .wPagina, .wNombre, .wImg{
+    margin: 6px;
+}
+
+#lblMenu, #lblSubMenu, #lblPagina, #lblNombre, #lblUsuario {
+    margin-right: 100px;
+}
+
+#ddMenu, #ddSubMenu, #ddPagina, #txtNombre, #ddUsuarios {
+    width: 100%;
+    max-width: 100%;
+}
+
+.color-box {
+    position: inherit;
+    top: 0;
+    left: 50%;
+    width: 36px;
+    height: 36px;
+    margin-left: -18px;
+    padding-top: 15px;
+}
+
+#Box {
+    position: inherit;
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 36px;
+    background: url(images/select2.png) center/126% auto;
+}
+
+.overflowI {
+    overflow: inherit;
+}
+
+.box {
+    background: #fff;
+    border-radius: 3px;
+    padding: 0 5px 5px;
+    border: solid 1px #ccc;
+}
+
+.grid2 > div {
+    margin: 10px 0 0;
+    /*float: left;*/
+    min-height: 150px;
+    box-sizing: inherit;
+    -webkit-transition: position 0.2s;
+    transition: position 0.2s;
+    padding: 0;
+}
+
+    .grid2 > div > a {
+        margin: 0;
+        display: block;
+    }
+
+.ic-direct-widget-item {
+    width: 62px;
+    height: 62px;
+    margin: 110px 0;
+    font-size: 14px;
+    float: none;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background: #ccc url(images/ic_directAccess.png) center center/105%;
+}
+
+.direct-widget-item .ic-delete {
+    position: absolute;
+    top: 0;
+    min-height: auto;
+    background-image: url(images/ic_delete.svg);
+    float: right;
+    right: 5px;
+}
+
+.grid2 {
+    min-height: 150px;
+    text-align: center;
+}
+
+    .grid2 > div > div {
+        cursor: pointer;
+    }
+
+.direct-widget-header {
+    margin: 0;
+    border-bottom: solid 1px #dadde0;
+    min-height: 44px;
+    padding-bottom: 15px;
+}
+
+.direct-widget-item span {
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: .5em;
+}
+
+.txt-Size {
+    font-size: 14px;
+}
+
+.txtCenter{
+    text-align:center;
+}
+
+@media (min-width: 800px) {
+    .wMenu {
+        display: inline-block;
+        vertical-align: top;
+        width: 16%;
+    }
+
+    .wsubMenu {
+        display: inline-block;
+        vertical-align: top;
+        width: 16%;
+    }
+
+    .wPagina {
+        display: inline-block;
+        vertical-align: top;
+        width: 16%;
+    }
+
+    .wNombre {
+        display: inline-block;
+        vertical-align: top;
+        width: 30%;
+    }
+}
+
+.bodyPad {
+    overflow: hidden;
+    padding: 1.6em 2em 0;
+    width: auto;
+}

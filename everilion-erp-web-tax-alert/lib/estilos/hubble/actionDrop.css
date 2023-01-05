@@ -1,0 +1,104 @@
+.dropbtn {
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    padding: 7px;
+    cursor: pointer;
+    text-align: left;
+    color: rgb(35, 31, 32);
+    font-weight: 400;
+}
+
+.drop {
+    font-family: "Muli",sans-serif;
+    margin-top: -30px;
+    width: 278.55px;
+    float: right;
+    padding-right: 9px;
+    padding-top: 15px;
+}
+
+.dropbtn:hover {
+    color: #e35e24;
+    background-color: #f0f0f0;
+}
+
+.dropdown {
+    width: 278.55px;
+    border: solid 1px rgb(204, 204, 204);
+    border-radius: 2.8px;
+    float: right;
+}
+
+.drop-label {
+    float: right;
+    width: 278.55px;
+    font-size: 13px;
+    padding-bottom: 2.6px;
+    text-align: left;
+}
+
+.drop-li {
+    margin: 0;
+    color: #555;
+    text-decoration: none;
+    transition: background .5s;
+    border: solid 1px rgb(204, 204, 204);
+}
+
+.drop-img {
+    cursor: pointer;
+    float: right;
+    margin: 0px;
+    background-image: url("images/ic_carat_d.svg");
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.dropdown-content {
+    cursor: pointer;
+    color: rgb(85, 85, 85);
+    font-size: 14px;
+    border: solid 1px rgb(204, 204, 204);
+    text-align: left;
+    display: none;
+    z-index: 999;
+    position: fixed;
+    background-color: white;
+    width: 278.55px;
+    padding: 0px;
+    margin: 0px;
+    /*ul fix*/
+    list-style-type: none;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+.dropelem {
+    color: black;
+    padding: 14px;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+}
+
+.defaultOrange, .activeState {
+    border-bottom: solid 2px #e35e24;
+}
+
+.dropelem:hover {
+    border-bottom: solid 2px #e35e24;
+    background-color: rgb(240, 240, 240);
+    color: #e35e24;
+}
+
+.show {
+    display: block;
+}

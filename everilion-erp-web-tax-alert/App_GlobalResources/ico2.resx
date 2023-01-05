@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btn_search" xml:space="preserve">
+    <value>images/btn_search.png</value>
+  </data>
+  <data name="btn_search_h" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="btn_search_w" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="CloseFolder" xml:space="preserve">
+    <value>images/btn_openfolder.png</value>
+  </data>
+  <data name="CloseFooter" xml:space="preserve">
+    <value>images/btn_collapse_footer.png</value>
+  </data>
+  <data name="imgCancelGridview" xml:space="preserve">
+    <value>images/borra_fila.png</value>
+  </data>
+  <data name="imgDeleteGridview" xml:space="preserve">
+    <value>images/borra_fila.png</value>
+  </data>
+  <data name="imgEditGridview" xml:space="preserve">
+    <value>images/editar.png</value>
+  </data>
+  <data name="imgGridview_h" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="imgGridview_w" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="imgUpdateGridview" xml:space="preserve">
+    <value>images/aceptar_guardar.png</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>images/btn_closefolder.png</value>
+  </data>
+  <data name="OpenFooter" xml:space="preserve">
+    <value>images/btn_expand_footer.png</value>
+  </data>
+  <data name="imgGridViewSearch" xml:space="preserve">
+    <value>images/btn_ico_search.png</value>
+  </data>
+  <data name="ImgOpenInfoLF" xml:space="preserve">
+    <value>images/open_info.png</value>
+  </data>
+  <data name="ImgOpenInfoLF_h" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="ImgOpenInfoLF_w" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="ReturnHome" xml:space="preserve">
+    <value>images/icono_home.png</value>
+  </data>
+  <data name="ReturnHome_h" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="ReturnHome_w" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="TreeCollapsedFolder" xml:space="preserve">
+    <value>images/folder_close.gif</value>
+  </data>
+  <data name="TreeCollapsedFolder_h" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TreeCollapsedFolder_w" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TreeExpandedFolder" xml:space="preserve">
+    <value>images/folder_open.gif</value>
+  </data>
+  <data name="TreeExpandedFolder_h" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TreeExpandedFolder_w" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TreeNoExpandedFolder" xml:space="preserve">
+    <value>images/folder_empty.gif</value>
+  </data>
+  <data name="TreeNoExpandedFolder_h" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TreeNoExpandedFolder_w" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>images/log_form_imp.jpg</value>
+  </data>
+  <data name="Document_h" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Document_w" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgExcelDocument" xml:space="preserve">
+    <value>images/excel_icon.png</value>
+  </data>
+  <data name="imgExcelDocument_h" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgExcelDocument_w" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgImageDocument" xml:space="preserve">
+    <value>images/imagen_icono.png</value>
+  </data>
+  <data name="imgImageDocument_h" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgImageDocument_w" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgPdfDocument" xml:space="preserve">
+    <value>images/pdf_icon.png</value>
+  </data>
+  <data name="imgPdfDocument_h" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgPdfDocument_w" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgPowepointDocument" xml:space="preserve">
+    <value>images/powepoint_icono.png</value>
+  </data>
+  <data name="imgPowepointDocument_h" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgPowepointDocument_w" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgWordDocument" xml:space="preserve">
+    <value>images/word_icon.png</value>
+  </data>
+  <data name="imgWordDocument_h" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgWordDocument_w" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgDocDocument" xml:space="preserve">
+    <value>images/document_icon.png</value>
+  </data>
+  <data name="imgDocDocument_h" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgDocDocument_w" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgPlusInfo" xml:space="preserve">
+    <value>images/info.png</value>
+  </data>
+  <data name="ImgPlusInfo_h" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="ImgPlusInfo_w" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="ImportaData_w" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="ImportData" xml:space="preserve">
+    <value>images/impot_data.png</value>
+  </data>
+  <data name="ImportData_h" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="SynchronizeProcess" xml:space="preserve">
+    <value>images/synchronize_process.png</value>
+  </data>
+  <data name="SynchronizeProcess_h" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="SynchronizeProcess_w" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="imgAmortization" xml:space="preserve">
+    <value>images/amortization.png</value>
+  </data>
+  <data name="imgAmortization_h" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="imgAmortization_w" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="imgCostDoc" xml:space="preserve">
+    <value>images/cost_sharing.png</value>
+  </data>
+  <data name="imgCostDoc_h" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="imgCostDoc_w" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="imgZipDocument" xml:space="preserve">
+    <value>images/zip_icon.png</value>
+  </data>
+  <data name="imgZipDocument_h" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgZipDocument_w" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LineVerticalBlue" xml:space="preserve">
+    <value>images/line_vertical_blue.png</value>
+  </data>
+  <data name="imgActualizarCentro" xml:space="preserve">
+    <value>images/anotar_caja.png</value>
+  </data>
+  <data name="imgBorrarCentro" xml:space="preserve">
+    <value>images/facturas_emitidas.png</value>
+  </data>
+  <data name="imgCandidatos" xml:space="preserve">
+    <value>images/datos_laborales.png</value>
+  </data>
+  <data name="imgHistorial" xml:space="preserve">
+    <value>images/historial.png</value>
+  </data>
+  <data name="imgPublicarCentro" xml:space="preserve">
+    <value>images/facturas_emitidas.png</value>
+  </data>
+  <data name="imgGridViewDuplicate" xml:space="preserve">
+    <value>images/add_item.png</value>
+  </data>
+  <data name="outlook" xml:space="preserve">
+    <value>images/icono_outlook.gif</value>
+  </data>
+  <data name="CalendarFolder" xml:space="preserve">
+    <value>images/Calendar_scheduleHS.png</value>
+  </data>
+  <data name="Calendar_h" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Calendar_w" xml:space="preserve">
+    <value />
+  </data>
+  <data name="serialNumber" xml:space="preserve">
+    <value>images/numero_serie.png</value>
+  </data>
+  <data name="serialNumber_h" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="serialNumber_w" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="CarpetaAbierta" xml:space="preserve">
+    <value>images/CarpetaAbierta.gif</value>
+  </data>
+  <data name="CarpetaAbierta_h" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="CarpetaAbierta_w" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="CarpetaCerrada" xml:space="preserve">
+    <value>images/CarpetaCerrada.gif</value>
+  </data>
+  <data name="CarpetaCerrada_h" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="CarpetaCerrada_w" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="GenerarInforme" xml:space="preserve">
+    <value>images/GenerarInforme.gif</value>
+  </data>
+  <data name="GenerarInforme_h" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GenerarInforme_w" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgEditGridviewMKPRCD" xml:space="preserve">
+    <value>images/editRCDMKP.png</value>
+  </data>
+  <data name="cbChecked" xml:space="preserve">
+    <value>images/checkbox_24x24_fe.png</value>
+  </data>
+  <data name="cbUnchecked" xml:space="preserve">
+    <value>images/checkbox_unchecked_24x24_fe.png</value>
+  </data>
+  <data name="icHome" xml:space="preserve">
+    <value>images/ic_home.png</value>
+  </data>
+  <data name="imgBannerHome" xml:space="preserve">
+    <value>images/ic_banner.jpg</value>
+  </data>
+  <data name="imgBtnServicios" xml:space="preserve">
+    <value>images/btn_servicios.gif</value>
+  </data>
+  <data name="imgHelp" xml:space="preserve">
+    <value>images/btn_ayuda.gif</value>
+  </data>
+  <data name="imgLogoMovistar" xml:space="preserve">
+    <value>images/logo_movistar.png</value>
+  </data>
+  <data name="imgLogoTefonica" xml:space="preserve">
+    <value>images/logo_telefonica.png</value>
+  </data>
+  <data name="imgServicesCloud" xml:space="preserve">
+    <value>images/ic_cloud.png</value>
+  </data>
+  <data name="imgServicesDigitales" xml:space="preserve">
+    <value>images/ic_digital.png</value>
+  </data>
+  <data name="imgServicesM2M" xml:space="preserve">
+    <value>images/ic_m2m.png</value>
+  </data>
+  <data name="imgServicesSecurity" xml:space="preserve">
+    <value>images/ic_security.png</value>
+  </data>
+  <data name="imgTagAplicateca" xml:space="preserve">
+    <value>images/tag_aplicateca.png</value>
+  </data>
+  <data name="RadioButton_checked" xml:space="preserve">
+    <value>images/RadioButton_checked.png</value>
+  </data>
+  <data name="RadioButton_unchecked" xml:space="preserve">
+    <value>images/RadioButton_unchecked.png</value>
+  </data>
+  <data name="CollapseSections" xml:space="preserve">
+    <value>images/btn_collapse_all.png</value>
+  </data>
+  <data name="NoCollapseSections" xml:space="preserve">
+    <value>images/btn_nocollapse_all.png</value>
+  </data>
+</root>

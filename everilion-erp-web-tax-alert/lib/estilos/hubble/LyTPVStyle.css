@@ -1,0 +1,38 @@
+﻿body {
+}
+
+/**************************************************************************************************************************************************************/
+/* TPV Style */
+/**************************************************************************************************************************************************************/
+
+iframe {
+    padding: 0 !important; /* iframes should not have padding */
+    overflow: auto !important;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border:none;
+    overflow: scroll;
+}
+
+.ui-layout-west {
+    padding: 0; /* west pane has a scrolling content-div, so remove padding */
+}
+
+.ui-layout-center {
+    padding: 0; /* west pane has a scrolling content-div, so remove padding */
+}
+
+.flotante2 {
+    position: absolute;
+    z-index: 998;
+    right: 9px;
+    bottom: 44px;
+}
+
+.flotante3 {
+    position: absolute;
+    z-index: 998;
+    right: 9px;
+    bottom: 0;
+}

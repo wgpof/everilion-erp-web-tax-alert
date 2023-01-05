@@ -1,0 +1,49 @@
+﻿iframe {
+		padding:	0 !important; /* iframes should not have padding */
+		overflow:	auto !important;
+
+}
+.ui-layout-west {
+		padding:	0;		/* west pane has a scrolling content-div, so remove padding */
+}
+.ui-layout-center {
+    padding: 0; /* west pane has a scrolling content-div, so remove padding */
+}
+    
+.Menu ul li
+{
+     text-align:left;
+     font:14px "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+     
+    /* set width if needed.*/
+    width:170px;
+}
+
+.Menu ul li a
+{
+    padding: 4px 2px 4px;
+    padding-left:2px !important;
+    border-bottom: 0;
+}
+
+.Menu ul li a:hover
+{
+    background-image: none;
+    color:#2589a2;
+}
+       .level1 {
+            color: #666;
+            padding: 4px 2px 4px;
+            padding-left:6px !important;
+            border-bottom: 0;
+        }
+       .level2{
+            color:black;
+            padding: 8px 6px 8px;
+            padding-left:12px !important;
+            margin-left:12px;
+            border-bottom: 0;
+            font-size:13px;
+            
+            
+       }

@@ -1,0 +1,39 @@
+/* 
+ * Everilion Styles
+ * Breadcrumb definition
+ * Date: 29/11/2012
+ * HM, MD
+ */
+
+#breadcrumb
+{
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	color: #666;
+	border: 1px solid #e3e3e3;
+	margin-left: 9px;
+	width: 98.5%;
+}
+.breadcrumb_td
+{
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	color: #666;
+}
+#breadcrumb span
+{
+	color:#3fa9c3;
+}
+
+/*Old Breadcrumb definitions*/
+.CELDA7
+{
+	font-Family:Tahoma;
+	font-size: 8.0pt;
+	color: #333;
+}
+.CELDARIGHT
+{
+	font-Family:Tahoma;
+	font-size: 9.0pt;
+	text-align: right;
+	color: #333;
+}

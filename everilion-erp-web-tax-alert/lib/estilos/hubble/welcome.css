@@ -1,0 +1,141 @@
+.tareas
+{
+    margin: 20px 0 20px 0;
+    padding: 0 0 0 0;
+}
+
+.tareas .active
+{
+    color: #2589a2;
+    font-weight: normal;
+}
+
+.tareas
+{
+    max-width: 100px;
+    border: solid 1px #dce1e5;
+    text-align: center;
+    padding: 1px;
+    color: #888;
+    vertical-align: middle;
+    font-family: Tahoma;
+}
+
+.tdtaskleft
+{
+    max-width: 100px;
+    border: solid 1px #dce1e5;
+    text-align: left;
+    color: #888;
+    vertical-align: middle;
+    font-family: Tahoma;
+}
+
+.tr_title
+{
+    background-color: #f2f2f2;
+    padding: 4px;
+    font-size: 13px;
+    color: #666;
+    border: solid 1px #dce1e5;
+    vertical-align: middle;
+    font-family: Tahoma;
+}
+
+.tdcenter
+{
+    padding: 4px;
+    font-size: 13px;
+    color: #666;
+    border: solid 1px #dce1e5;
+    vertical-align: middle;
+    text-align: center;
+    font-family: Tahoma;
+}
+
+.tdleft
+{
+    padding: 4px;
+    font-size: 13px;
+    color: #666;
+    border: solid 1px #dce1e5;
+    vertical-align: middle;
+    text-align: left;
+    font-family: Tahoma;
+}
+
+#button_off
+{
+    background: url(images/desconectar.png) no-repeat center center;
+    width: 24px;
+    height: 24px;
+}
+
+.bt_position
+{
+    position: relative;
+    right: 2px;
+}
+
+#logo
+{
+    position: relative;
+    background: url(images/logo_ilion.png) no-repeat center center;
+}
+
+.critical
+{
+    padding: 4px;
+    font-size: 13px;
+    color: #FF7E00;
+    border: solid 1px #dce1e5;
+    vertical-align: middle;
+    text-align: center;
+    font-family: Tahoma;
+}
+
+.outTime
+{
+    padding: 4px;
+    font-size: 13px;
+    color: #FF1D06;
+    border: solid 1px #dce1e5;
+    vertical-align: middle;
+    text-align: center;
+    font-family: Tahoma;
+}
+
+.close
+{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    background: #CBC9C9;
+}
+
+.colorREF
+{
+    color: #2589a2;
+    vertical-align: middle;
+    text-align: center;
+    font-family: Tahoma;
+    text-decoration: none;
+}
+
+.column
+{
+    width: 33.3%;
+    float: left;
+    padding-bottom: 100px;
+}
+
+.ui-sortable-placeholder
+{
+    border: 1px dotted black;
+    visibility: visible !important;
+    height: 50px !important;
+}
+
+.ui-sortable-placeholder *
+{
+    visibility: hidden;
+}

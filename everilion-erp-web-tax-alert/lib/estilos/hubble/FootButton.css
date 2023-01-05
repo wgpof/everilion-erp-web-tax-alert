@@ -1,0 +1,46 @@
+﻿input, div[class*="Button"], [class*="Button"], .INPUT {
+    font-family: "Type", sans-serif;
+}
+
+div[class*="Button"], a[class*="Button"] {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #231f20;
+    cursor: pointer;
+    font: bold 12px/normal "Type", sans-serif;
+    margin: 0 2.5px 0 0;
+    padding: 5.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline;
+}
+
+#BUTTONS_CENTER_ASP td:only-child div[class*="Button"] {
+    margin-right: 0
+}
+
+[class*="Button"].colored, #idcancel div[class*="Button"], #iddelete div[class*="Button"], a[name*="cancel"] div[id*="button"] {
+    background: #ac002b;
+    color: #fff;
+    border: solid 1px #ac002b;
+}
+
+a[class*="Button"]:hover, a[class*="Button"]:active, div[class*="Button"]:hover, div[class*="Button"]:active, div[class*="Button"]:focus, a[name*="cancel"] div[id*="button"]:hover {
+    background-color: #f0f0f0 !important;
+    color: #e35e24 !important;
+    outline: none !important;
+    text-decoration: none;
+}
+
+.INPUT {
+    font-size: 9.0pt;
+    cursor: pointer;
+    border: solid 1px #bbb;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.INPUT:hover {
+    color: #e35e24;
+}

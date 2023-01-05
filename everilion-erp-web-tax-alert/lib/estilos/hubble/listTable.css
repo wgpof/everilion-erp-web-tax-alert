@@ -1,0 +1,75 @@
+table {
+    border-collapse: collapse;
+    font-family: "Type", sans-serif;
+    width: 100%;
+}
+
+    table th, table tr:first-child td:not(.breadcrumb_td) {
+        background-color: #fff;
+        border-bottom: solid 1px #f2a21e;
+        color: #000;
+        font-family:"Type", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 4px;
+        text-align: left;
+    }
+
+    table td:not(.breadcrumb_td) {
+        border: none !important;
+        padding: 7px 4px;
+        text-align: left;
+    }
+
+    #searchLittle td:not(.breadcrumb_td) {
+        border: none !important;
+        padding: 1px;
+        text-align: left;
+    }
+
+    table td:not(.breadcrumb_td), table td a, a {
+        font-size: 12px !important;
+    }
+
+    table td a, a {
+        color: #188290 !important;
+        margin: 0;
+        font-weight: 700;
+    }
+
+        table td a:hover, table td a:active, a:hover, a:active {
+            color: #e34e25 !important;
+        }
+
+    table th {
+        padding: .5em;
+    }
+
+    table tr:nth-child(odd) {
+        background: #fdfdfd;
+    }
+
+    table tr:nth-child(odd), table tbody tr.odd {
+        background: #fdfdfd;
+    }
+
+.emptyTable td {
+    height: 400px;
+    vertical-align: middle;
+    text-align: center;
+    background: #fff;
+}
+
+table tr:nth-child(even), table tbody tr.even {
+    background: #fcecd2;
+}
+
+table.table-input tr:nth-child(even), table.table-input tbody tr.even {
+    background: #fdfdfd;
+}
+
+table.smallPTd
+tr td {
+    padding: 1px;
+    font-size: 11px !important;
+}

@@ -1,0 +1,128 @@
+﻿.LoyaltyAssociationVersion-AppliedItem {
+    margin-top: 2em;
+}
+
+.LoyaltyAssociationVersion-col2Left{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    width: 80%;
+    max-width: 600px;
+    float: left;
+    display: inline-block;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.LoyaltyAssociationVersion-TextBox {
+    resize: none;
+    width: 80%;
+    height: 5em;
+}
+
+.LoaltyAssociationVersion-ExpirationMessage 
+{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.LoaltyAssociationVersion-FilterContainer {
+    padding-left: 2em;
+}
+
+.LoyaltyAssociationVersion-FilterContainer > .CELDA:first-child {
+    margin-top: 1.5em;
+    padding-left: 2em;
+}
+
+.LoyaltyAssociationVersion-col2ContainerLeft{
+    width: 15%;
+    float: left;
+    display: inline-block;
+}
+
+.LoyaltyAssociationVersion-col2ContainerRight{
+    width: 82%;
+    float: left;
+    display: inline-block;
+    padding-left: 3%;
+    margin-bottom: 1em;
+}
+
+.LoyaltyAssociationVersion-col2AttributionLeft{
+    width: 80%;
+    max-width: 600px;
+    float: left;
+    display: inline-block;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.LoyaltyAssociationVersion-col2AttributionLeft > table 
+{
+    margin-bottom: 1em;
+}
+
+.LoyaltyAssociationVersion-col2AttributionContainerLeft{
+    width: 25%;
+    float: left;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.LoyaltyAssociationVersion-col2AttributionContainerRight{
+    width: 70%;
+    float: left;
+    display: inline-block;
+    margin-bottom: 1em;
+    padding-left: 5%;
+}
+
+.LoyaltyAssociationVersion-col4AttributionRight{
+    display: inline-block;
+    padding-left: 1em;
+}
+
+.LoyaltyAssociationVersion-col4AttributionLeft{
+    float: left;
+    display: inline-block;
+}
+
+
+.LoyaltyAssociationVersion-col4AttributionLeft > input[type=text]{
+    max-width: 7em;
+    min-width: 5em;
+    display: inline-block;
+    float: left;
+}
+
+
+.LoyaltyAssociationVersion-Links{
+    margin: 1em 0.5em;
+}
+
+.LoyaltyAssociationVersion-col2ContainerRight > .LoyaltyAssociationVersion-col4col2:not(:first-child) > .LoyaltyAssociationVersion-col4Left
+{
+    padding-left: 8%;
+}
+
+.LoyaltyAssociationVersion-col4col2 
+{
+    float: left;
+    display: inline-block;
+    padding-right: 1em;
+}
+
+.LoyaltyAssociationVersion-col2ContainerRight > input[type=text].datepickerNet{
+    width: 7em;
+}
+
+.LoyaltyAssociationVersion-AttributionTitle 
+{
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.LoyaltyAssociationVersion-Title 
+{
+    font-weight: bold;
+}

@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="True" CodeBehind="ShareListClient.Master.cs" Inherits="ShareMasterPage.ShareListClient" EnableTheming="true" %>
+<%@ Register Assembly="Interfaz" Namespace="Controles" TagPrefix="cc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+  <title>Ilion SaaS</title>
+  <asp:Literal ID="LitStyles3" Text="" runat="server"></asp:Literal>
+ <asp:Literal ID="LitJs3" Text="" EnableViewState="false" runat="server"></asp:Literal>
+</head>
+<script language="javascript" type="text/javascript">
+    // Hide frame of button, 100% screen 
+    if (parent.document.body != null) parent.document.body.rows = "100%,*";
+</script>
+<body class="body_master">
+    <form id="fMaster" runat="server">
+        <asp:ScriptManager id="smMaster" runat="server" EnablePartialRendering="true" EnableScriptGlobalization="true" ></asp:ScriptManager>
+        <table width="100%" border="0">
+        <tr>
+            <td>
+                <cc1:ControlCabecera id="cabecera" runat="server" colorPagina="" DSNIlion="" dsn_cliente="" ncliente="" usuario="" viene=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <asp:ContentPlaceHolder id="wfInterface" runat="server"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <asp:UpdatePanel id="up_bt" runat="server" UpdateMode="Conditional">
+                <ContentTemplate>
+                     <asp:HiddenField id="vId" value="" runat="server" />
+                    <div id = "PageFooter">
+                        <div id="CollapseFooter" class="buttonHide">
+                            <a class="ButtonR" id="hide" href ="#" ><asp:Image runat="server" id="footerClose" EnableViewState="false" /></a>
+                        </div>
+                        <div id="CollapseFooter" class="buttonShow">
+                            <a class="ButtonR" id="show" href ="#" ><asp:Image runat="server" id="footerOpen" EnableViewState="false" /></a>
+                        </div>   
+                        <div id="ControlPanelFooter">
+                            <table id="BUTTONS_CENTER">
+                                <tr>
+                                    <td class="CELDABOT">        
+                                        <cc1:ButtonIlion ID="ibLoad" runat="server" OnClick="ibLoad_Click" OnClientClick="return ibLoadClick()"/>
+                                     </td>
+                                     <td class="CELDABOT">
+                                        <cc1:ButtonIlion ID="ibCancel" runat="server" OnClick="ibCancel_Click" OnClientClick="return ibCancelClick()"/>
+                                    </td>
+                                    <td class="CELDABOT">
+                                        <cc1:ButtonIlion ID="ibPrint" runat="server" OnClick="ibPrint_Click" OnClientClick="return ibPrintClick()"/>
+                                    </td>
+                                     <td class="CELDABOT">
+                                        <cc1:ButtonIlion ID="ibPdf" runat="server"  OnClick="ibPdf_Click" OnClientClick="return ibPdfClick()"/>
+                                    </td>
+                                     <td class="CELDABOT">
+                                        <cc1:ButtonIlion ID="ibExport" runat="server" OnClick="ibExport_Click" OnClientClick="return ibExportClick()"/>
+                                    </td>
+                                      <td class="CELDABOT">
+                                        <cc1:ButtonIlion ID="ibReturn" runat="server" OnClick="ibReturn_Click" OnClientClick="return ibReturnClick()"/>
+                                      </td>
+                                    <td class="CELDABOT">
+                                        <cc1:ButtonIlion ID="ibClose" runat="server" OnClick="ibClose_Click" OnClientClick="return ibCloseClick()"/>
+                                      </td>
+                                </tr>
+                            </table>                         
+                            <cc1:ControlPie ID="pie" aviso="aviso" info="info" resolucion="resolucion" runat="server" />
+                        </div>
+                     </div>
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+            </td>
+        </tr>
+        </table>
+    </form>
+</body>
+</html>

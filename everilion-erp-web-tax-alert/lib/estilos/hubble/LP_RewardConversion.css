@@ -1,0 +1,105 @@
+﻿.TableFieldsConfig {
+    color: #7e7e7e;
+    font-size:9pt;
+}
+
+.tableConfig {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 95%; 
+    background-color: #FDFDFD;
+    border: 1px solid black;
+    border-spacing: 0;
+}
+
+.FieldsConfig {
+    height: 22px !important;
+    background-color: #e3e3e3;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    text-align: left;
+    padding: 5px;
+}
+
+.WidthButtonsConfig {
+    text-align: center;
+    width: 10%;
+}
+
+.BorderConfig {
+    border-bottom: 1px solid #dadada;
+    padding: 5px;
+    padding-left: 10px !important;
+}
+
+.BorderConfigButtons{
+    text-align: center;
+    width: 10%;
+    border-bottom: 1px solid #000;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.pagination{
+    float: right !important;
+    margin-top: -40px !important; 
+    margin-right: 35px !important;
+}
+  
+ table {
+        border-collapse: collapse !important;
+    }
+.tHeader {
+    border: 1px solid black !important;
+    background-color: lightgrey!important;
+    text-align: center;
+    border-collapse: collapse !important;
+    color: black;
+    font-weight: bold;
+ }
+.tBody {
+    border: 1px solid black !important;
+    text-align: center;
+    border-collapse: collapse !important;
+}
+
+tr.tBody {
+    height: 34px;
+}
+
+.modal
+{
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: Black;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+}
+
+.center
+{
+    z-index: 1000;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: White;
+    border-radius: 100px;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -moz-opacity: 1;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;	
+	margin: auto;
+}

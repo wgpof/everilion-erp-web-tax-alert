@@ -1,0 +1,129 @@
+﻿.LoyaltyVoucherPromotionManagementeList_Action {
+    height: 20px;
+    width: 20px;
+}
+
+.LoyaltyVoucherPromotionListManagement_ActionsColumn {
+    width:120px;
+}
+
+.LoyaltyVoucherPromotionManagementeList_Buttons{
+    width: 50%;
+    margin: 0;
+    padding: 0.25em 0;
+    float: left;
+}
+
+.LoyaltyVoucherPromotionManagementeList_AlignLeft input[type="image"]{
+    margin-left: 5%;
+}
+
+.LoyaltyVoucherPromotionManagementeList_AlignRight {
+    text-align: right;
+}
+
+.LoyaltyVoucherPromotionManagementeList_AlignRight input[type="image"]{
+    margin-right: 5%;
+}
+
+.LoyaltyVoucherPomotionListManagemente-col2 {
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+
+.LoyaltyVoucherPomotionListManagemente-col2 > select, .LoyaltyVoucherPomotionListManagemente-col2 > input[type="text"] {
+    width: 300px;
+    max-width: 100%;
+}
+
+.LoyaltyVoucherPomotionListManagemente-col2ContainerLeft{
+    width: 30%;
+    padding-left: 1em;
+    padding-bottom: 1.5em;
+    float: left;
+}
+
+.LoyaltyVoucherPromotionListManagement_IdColumn {
+    width: 90px;
+}
+
+.LoyaltyVoucherPromotionListManagement-padding3 {
+    padding-bottom: 3em;
+}
+
+.LoyaltyVoucherPromotionManagementeList_Pagination, .LoyaltyVoucherPromotionListManagement_LinkResults{
+    text-align:right;
+    margin: 1em 2.5%;
+    width: 95%;
+}
+
+.LoyaltyVoucherPromotionListManagement_StateColumn {
+    width: 120px;
+}
+
+.usual-table {
+    width: 100%;
+    padding: 5px;
+}
+
+.usual-table th {
+    background-color: #F5F4F2;
+    color: black !important;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 5px;
+    text-align: left;
+}
+
+.usual-table .alignCenter {
+    text-align: center;
+}
+
+.usual-table td {
+    border: 0 !important;
+    font-size: 0.8em !important;
+    padding: 5px !important;
+    color: #828282 !important;
+    font-weight: normal !important;
+}
+
+.usual-table tr:nth-child(odd) {
+    background: #F9F9F9;
+}
+
+.usual-table .even {
+    background-color: #EAEAEA;
+}
+
+.usual-table .accordion {
+    cursor: pointer;
+}
+
+.usual-table .ic-collapse {
+    background: url(../BBVA/images/ic_collapse.png) no-repeat center center;
+    width: 13px;
+}
+
+.usual-table .accordion:hover {
+    cursor: pointer;
+    background: #e3faff;
+}
+
+.usual-table .accordion td {
+    background-color: transparent !important;
+}
+
+.usual-table .accordion-item {
+    background: none repeat scroll 0 0 #e0f3ff;
+    padding: 10px;
+}
+
+.usual-table .summary {
+    background-color: #707070;
+    color: #FFFFFF !important;
+}
+
+    .usual-table .summary td {
+        color: #FFFFFF !important;
+    }

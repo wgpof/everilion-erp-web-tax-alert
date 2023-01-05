@@ -1,0 +1,132 @@
+﻿/* NUEVO LISTSTYLES*/
+
+.ms-container .btn-detail {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	width: 34px;
+	height: 34px;
+}
+
+
+
+.ms-container .ms-selectable li.ms-elem-selectable span, .ms-container .ms-selection li.ms-elem-selection span {
+	display: inline-block;
+	width: calc(100% - 34px);
+	vertical-align: middle;
+	box-sizing: border-box;
+	padding-right: 10px;
+}
+
+.ms-container .ms-selectable li.ms-elem-selectable span, .ms-container .ms-selection li.ms-elem-selection span {
+	display: inline-block;
+	width: calc(100% - 34px);
+	vertical-align: middle;
+	box-sizing: border-box;
+	padding-right: 10px;
+}
+
+.ms-container-right-button {
+	border-radius: 3px;
+	min-width: 34px;
+	font-size: 14px;
+}
+
+	.ms-container-right-button:hover {
+		cursor: pointer;
+		color: #e35e24;
+		background-color: #f0f0f0;
+	}
+
+/* NUEVO FORMULARIOS*/
+
+.ic-see {
+	background-image: url(images/ic_see.svg);
+	float: none;
+}
+
+.pop-up {
+	position: absolute;
+	top: 0;
+	z-index: 10000;
+	overflow: auto;
+}
+
+.boxShadow {
+	box-shadow: #cccccc80 -3px 6px 9px;
+}
+
+.right {
+	right: 0;
+}
+
+.left {
+	left: 0;
+}
+
+.pRelative {
+	position: relative;
+}
+
+/* A MODIFICAR LISTSTYLES*/
+
+.ms-container .ms-list {
+	margin-bottom: 8px;
+}
+
+/* A MODIFICAR FORMULARIOS*/
+
+.ic-menu, .ic-power, .ic-search, .ic-user, .ic-edit, .ic-more, .ic-delete, .ic-accept, .ui-input-clear, .ic-last, .ic-prev, .ic-next, .ic-first, .ic-clone, .ic-see {
+	transition: transform .5s;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 20px;
+}
+
+
+
+
+
+/* POPUP */
+
+
+
+
+.widget-item-wrapper, .box {
+	background: #fff;
+	border-radius: .3em;
+	padding: 0 .5em .5em;
+	border: solid 1px #ccc;
+}
+
+.menu-secondary a.closemenu-btn, .closemenu-btn {
+	display: block;
+	position: relative;
+	width: 100%;
+	margin: 0;
+	border-bottom: solid 1px #ccc;
+}
+
+	.menu-secondary a.closemenu-btn span, .closemenu-btn span {
+		display: inline-block;
+		vertical-align: middle;
+		float: none;
+	}
+
+.ic-delete, .ui-input-clear {
+	background-image: url(images/ic_delete.svg);
+}
+
+
+/* MIO */
+
+.button-window-element {
+	display: inline-grid;
+	margin: 2px;
+}
+
+/* ONLY THIS PAGE HAS THIS STYLE */
+.ms-container .ms-list {
+	height: 280px;
+	min-height: 280px;
+}

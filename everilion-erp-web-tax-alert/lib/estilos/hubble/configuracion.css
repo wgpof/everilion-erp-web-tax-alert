@@ -1,0 +1,406 @@
+/*REPSOL MAQUETACIÃ“N CAMBIAR descomentar para producciÃ³n y comentar font-face local abajo. Subir tipografÃ­as adjuntas en carpeta fonts
+@font-face{
+	font-family:"RepsolRegular";
+	src:url(https://www.ilionsistemas.com/Lib/estilos/Repsol/fonts/repsol-regular-webfont.eot?#iefix);
+	src:url(https://www.ilionsistemas.com/Lib/estilos/Repsol/fonts/repsol-regular-webfont.woff)format("woff");
+}
+@font-face{
+	font-family:"RepsolBold";
+	src:url(https://www.ilionsistemas.com/Lib/estilos/Repsol/fonts/repsol-bold-webfont.eot?#iefix);
+	src:url(https://www.ilionsistemas.com/Lib/estilos/Repsol/fonts/repsol-bold-webfont.woff)format("woff");
+}
+*/
+@font-face {
+    font-family: "RepsolRegular";
+    src: url(fonts/repsol-regular-webfont.eot?#iefix);
+    src: url(fonts/repsol-regular-webfont.woff)format("woff");
+}
+
+@font-face {
+    font-family: "RepsolBold";
+    src: url(fonts/repsol-bold-webfont.eot?#iefix);
+    src: url(fonts/repsol-bold-webfont.woff)format("woff");
+}
+
+
+/*NUEVO ASISTENTE TPV*/
+body {
+    margin: 0;
+    background: #f6f3f0;
+}
+
+a {
+    text-decoration: none;
+}
+/*.link-home{position:absolute; right:0; top:0;display:block;width:58px;height:58px;background:url(images/icono_home.png) no-repeat center;cursor:pointer;z-index:2000;}*/
+.seleccionShop, .TPVForm, .msgState, .initForm {
+    font-family: "RepsolRegular", sans-serif;
+    font-weight: normal;
+    color: #041e42;
+    display: inline-block;
+    max-width: calc(650px - 40px);
+    vertical-align: top;
+    width: 50%;
+}
+
+.seleccionShop {
+    max-width: 400px;
+    width: 50%;
+}
+
+.TPVForm, .msgState {
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.TPVWiz {
+    background: url(images/img_bck.png) no-repeat left top/100px;
+    text-align: center;
+}
+
+    .TPVWiz h1 {
+        font-family: "RepsolBold", sans-serif;
+        color: #6e6259;
+        padding: 10px 0 0;
+        margin: 0;
+    }
+
+    .TPVWiz h4 {
+        margin: 10px 0;
+        position: relative;
+    }
+
+    .TPVWiz p {
+        font-size: 28px;
+        color: #6e6259;
+        font-weight: normal;
+    }
+
+.TPVForm h4 .station {
+    color: #2589a2;
+    font-size: 16px;
+}
+
+.seleccionShop {
+    text-align: center;
+    margin: 0 auto 0;
+}
+
+.TPVWiz ul {
+    list-style: none;
+    margin: 0 auto 0;
+    padding: 0;
+    border: solid 1px #cbc4bc;
+    overflow-y: auto;
+}
+
+.seleccionShop-list {
+    max-height: 470px;
+}
+
+.TPVWiz .TPVForm-list {
+    margin-bottom: 20px;
+}
+
+    .TPVWiz .TPVForm-list.oAuto {
+        height: 470px;
+    }
+
+.TPVForm-list li {
+    float: left;
+    width: 20%;
+    display: inline-table;
+}
+
+    .TPVForm-list li .item-list, .TPVForm-list li .item-list:first-child {
+        text-align: center;
+        padding: 0;
+        font-size: .875em;
+        line-height: 1em;
+        border-width: 1px;
+        display: table-cell;
+        vertical-align: middle;
+        height: 58px;
+    }
+
+.TPVWiz-search, .TPVForm-input {
+    position: relative;
+}
+
+.TPVWiz input[type="text"], .TPVWiz input[type="search"] {
+    padding: 1.125em;
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-color: #cbc4bc;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.TPVWiz-search:after {
+    content: "";
+    width: 58px;
+    height: 58px;
+    background: url(images/ic_search.png) no-repeat center/24px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    opacity: .4;
+}
+
+.TPVWiz-search.erasable:after {
+    display: none;
+}
+
+.TPVWiz-search input:focus, .seleccionShop input[type="text"]:focus, .TPVWiz-search input:active, .seleccionShop input[type="text"]:active, .TPVForm input[type="text"]:focus, .TPVForm input[type="text"]:active {
+    border-color: #ff8200
+}
+
+.seleccionShop a, .seleccionShop button, .TPVForm a, .TPVForm button {
+    transition: background .2s;
+}
+
+.TPVWiz a:hover, .TPVWiz button:hover, .TPVWiz a:active, .TPVWiz button:active, .TPVWiz a:focus, .TPVWiz button:focus {
+    background-color: #d96f00;
+    cursor: pointer;
+}
+
+li:nth-child(even) .item-list:hover, .item-list:hover, .item-list:active, li:nth-child(even) .item-list:active, .item-list:focus, li:nth-child(even) .item-list:focus, .item-list.active, li:nth-child(even) .item-list.active {
+    color: #fff;
+    background-color: #d96f00
+}
+
+.item-list {
+    display: block;
+    color: #6e6259;
+    padding: .972em;
+    font-size: 18px;
+    border-width: 1px 0 0;
+    border-color: #f0edeb;
+    border-style: solid;
+    text-align: left;
+}
+
+li:first-child .item-list {
+    border-width: 0;
+}
+
+li:nth-child(even) .item-list {
+    background: #fff;
+}
+
+.TPVWiz button {
+    font-family: "RepsolRegular", sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    background-color: #ff8200;
+    width: 100%;
+    padding: .2831em;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    margin: 34px 0 25px;
+    max-width: 400px;
+}
+
+.TPVForm label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.instafilta-match {
+    color: #ff8200;
+    font-weight: bold;
+}
+
+input[type="text"].error {
+    color: #e4002b;
+    border-color: #e4002b
+}
+
+.txt-error {
+    text-align: left;
+    color: #e4002b;
+    margin-top: -10px;
+}
+
+.instafilta-section .instafilta-section {
+    margin-top: 1em;
+}
+
+.ic-clear {
+    position: absolute;
+    background: #fff url(images/ic_clear.png) no-repeat center;
+    width: 54px;
+    height: 54px;
+    right: 0;
+    top: 0;
+    border: none;
+    margin: 0;
+    z-index: 3;
+    display: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.TPVWiz .ic-clear:hover {
+    background-color: #fff;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.msgState {
+    position: relative;
+}
+
+.icon-state {
+    width: 106px;
+    height: 106px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    margin-left: -53px
+}
+
+.msgState .box {
+    background: #fff;
+    width: 100%;
+    min-height: 200px;
+    box-shadow: 1px 1px 5px #cbc4bc;
+    position: relative;
+    padding: 2em;
+    margin-top: 123px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+
+.msgState button {
+}
+
+.icon-state.ok {
+    background-image: url(images/ic_stateOK.png)
+}
+
+.icon-state.ko {
+    background-image: url(images/ic_stateKO.png)
+}
+
+.step {
+    color: #ff8200;
+    font-size: 16px;
+    background: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    border: solid 1px #ff8200;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 31px;
+    margin-right: 5px;
+}
+
+    .step.done {
+        color: #fff;
+        background: #00859b;
+        border-color: #00859b
+    }
+
+    .step.nodone {
+        color: #fff;
+        background: #e4002b;
+        border-color: #e4002b
+    }
+
+.TPVForm-fieldset .IP-fieldset {
+    position: relative;
+    padding-top: 16px;
+}
+
+    .TPVForm-fieldset .IP-fieldset .tpv.ic-clear {
+        color: #ff8200;
+        font-size: 16px;
+        display: block;
+        vertical-align: middle;
+        background-color: transparent;
+        background-position: center right;
+        padding: .844em 48px .844em 0;
+        top: -20px;
+        height: auto;
+        width: auto;
+    }
+/*FIN NUEVO ASISTENTE TPV*/
+.in {
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 350ms;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 350ms;
+    animation-timing-function: ease-out;
+    animation-duration: 350ms;
+}
+
+.pop {
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+    .pop.in {
+        -webkit-transform: scale(1);
+        -webkit-animation-name: popin;
+        -webkit-animation-duration: 350ms;
+        -moz-transform: scale(1);
+        -moz-animation-name: popin;
+        -moz-animation-duration: 350ms;
+        transform: scale(1);
+        animation-name: popin;
+        animation-duration: 350ms;
+        opacity: 1;
+    }
+
+@-webkit-keyframes popin {
+    from {
+        -webkit-transform: scale(.8);
+        opacity: 0;
+    }
+
+    to {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes popin {
+    from {
+        -moz-transform: scale(.8);
+        opacity: 0;
+    }
+
+    to {
+        -moz-transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes popin {
+    from {
+        transform: scale(.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+/*REPSOL INICIO*/

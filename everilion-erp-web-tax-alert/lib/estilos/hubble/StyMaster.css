@@ -1,0 +1,266 @@
+/* 
+ * Everilion Styles
+ * Master file
+ * Date: 29/11/2012
+ * HM, MD
+ */
+
+/*Body Definition*/
+.body_master {
+    background-color: #fff;
+    box-sizing: border-box;
+    color: #555;
+    font-family: "Type", sans-serif;
+    font-style: normal;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.body_master_ASP {
+    margin: 0px;
+    padding: 0;
+}
+/*page footer*/
+#PageFooter {
+    background: #ddd;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    margin-left: 0;
+    margin-top: 0px;
+    z-index: 4000;
+}
+
+    #PageFooter select, #PageFooter .ButtonFooterLeft, #PageFooter .ButtonFooter {
+        font-size: 12px;
+        font-family: "Type", sans-serif;
+    }
+
+#CollapseFooter {
+    height: 22px;
+    margin-bottom: -3px;
+    margin-right: 7px;
+}
+
+.buttonHide {
+    /**/
+}
+
+.buttonShow {
+    display: none;
+}
+
+#ControlPanelFooter {
+    position: absolute;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    left: 0;
+    height: 55px;
+    bottom: 0;
+    background: #ccc;
+    border-top: solid 1px #ccc;
+    z-index: 199;
+    transition: width .5s;
+    margin-bottom: 0px;
+}
+
+#BUTTONS {
+    border-spacing: 0;
+    width: auto;
+    height: 100%;
+    float: left;
+}
+/*
+a.active:hover
+{
+	color:#ccc;
+}*/
+
+#BUTTONS_CENTER {
+    width: auto;
+    height: 100%;
+    margin: 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#BUTTONS_CENTER_ASP {
+    width: auto;
+    height: 100%;
+    margin: 0;
+    text-align: left;
+    vertical-align: middle;
+}
+/*
+#BUTTONS_CENTER a, .active
+{
+	color:#ccc;
+}
+
+#BUTTONS_CENTER a:hover, a.active:hover
+{
+	color:#ccc;
+}*/
+
+#FILTERS_MASTER, .FILTERS_MASTER{
+    padding: 3px 6px 3px 3px;
+    margin: 9px 40px 9px 5px;
+    width: auto;
+    height: auto;
+    float: right;
+    /*border-radius:10px;
+	border:solid 1px #999;*/
+}
+
+.clear {
+    clear: both;
+}
+
+.Button {
+    margin-right: 10px;
+}
+
+.ButtonR {
+    float: right;
+}
+
+input.IN_S {
+    cursor: text;
+}
+
+.IN_S {
+    height: 26px;
+    margin: 0 4px 0 0;
+    padding: 2px 4px;
+    vertical-align: middle;
+    border-radius: 3px;
+    border: solid 1px #ccc;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+}
+
+    .IN_S:hover, .IN_S:focus {
+        color: #e35e24;
+    }
+
+#KeySearch, input.IN_S {
+    border-width: 0 0 1px;
+    font-style: italic;
+}
+
+.IN_S + .CELDAREF img {
+    vertical-align: middle;
+}
+
+.BUTTON_S[src*="search"] {
+    border: none;
+    width: 22px !important;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 22px !important;
+    min-height: auto;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.black {
+    font-Family: "Type", sans-serif;
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+}
+
+#FOOT {
+    clear: both;
+    font-size: 12px;
+    color: #999999;
+    margin: 0px auto;
+    text-align: center;
+}
+
+div[class*="Button"], a[class*="Button"] {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #231f20;
+    cursor: pointer;
+    display: inline-block;
+    font: bold 12px/normal "Type", sans-serif;
+    margin: 0 5px 0 0;
+    padding: 5.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#BUTTONS_CENTER_ASP td:only-child div[class*="Button"] {
+    margin-right: 0
+}
+
+.ButtonFooterLeft.colored, #idcancel div[class*="Button"], #iddelete div[class*="Button"], a[name*="cancel"] div[id*="button"], a[id*="Cancel"][class*="Button"], a[id*="Delete"][class*="Button"] {
+    background: #ac002b;
+    color: #fff;
+    border: solid 1px #ac002b;
+}
+
+    a[class*="Button"]:hover, a[class*="Button"]:active, div[class*="Button"]:hover, div[class*="Button"]:active, div[class*="Button"]:focus, a[name*="cancel"] div[id*="button"]:hover, a[id*="Cancel"]:hover, a[id*="Cancel"]:active, a[id*="Delete"][class*="Button"]:hover, a[id*="Delete"][class*="Button"]:active {
+        background-color: #f0f0f0 !important;
+        color: #e35e24 !important;
+        outline: none !important;
+        text-decoration: none;
+    }
+
+@media print {
+    #PageFooter {
+        display: none;
+        visibility: hidden;
+    }
+}
+/*FACEPAY STYLES*/
+.pag-results {
+    color: #fff;
+    display: inline-table;
+    font-weight: 400;
+    padding: 0 1em;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+    .pag-results.dark {
+        color: #231f20;
+    }
+
+.page-item {
+    border-radius: 3px;
+    border: solid 1px #ccc;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 14px;
+    height: 34px;
+    margin-right: 5px;
+    text-align: center;
+    width: 34px;
+    border-radius: 4px;
+    background: #fff;
+}
+
+    .page-item span {
+        font-family: "Type", sans-serif;
+        display: inline-block;
+        vertical-align: middle;
+        width: 100%;
+        height: auto;
+        padding: 6px 0;
+    }
+
+    .page-item.active {
+        font-weight: 700;
+        border-bottom-width: 4px;
+        border-bottom-color: #e35e24;
+    }

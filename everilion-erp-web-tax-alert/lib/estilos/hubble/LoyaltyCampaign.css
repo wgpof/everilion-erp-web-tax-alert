@@ -1,0 +1,115 @@
+﻿.modal
+{
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: Black;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+}
+
+.center
+{
+    z-index: 1000;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: White;
+    border-radius: 100px;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -moz-opacity: 1;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;	
+	margin: auto;
+}
+
+.dllformat{
+    margin-left:2px !important;
+}
+
+
+.btnDeleteLastDate {
+    margin: 0 0 10px 40px !important;
+}
+
+.txtValue2 {
+    margin-top: 2px;
+}
+
+.MaxLength50 {
+    width: 360px !important;
+}
+.vAlignMiddle {
+    vertical-align: middle !important; 
+}
+.fluPDFCommercial {
+
+    display:none;
+    position:absolute;
+    z-index:-1000;
+}
+.MaxLength10 {
+    width: 70px !important;
+}
+
+.decimal {
+    width: 90px !important;    
+}
+.lblLastDate {    
+    margin: 0 0 0 10px;
+    display: block;
+    margin-top: 15px;
+}
+.dInline {
+    display: inline-table;
+}
+.MaxLength2 {
+    width: 20px !important;
+}
+.asoc_communication{
+    width: 70%;
+}
+.txtAttribution {
+    width: 50px;
+}
+.alignRight{
+    text-align: right !important;
+}
+
+.MaxLength5{
+    width: 38px !important;
+}
+
+#divCampaignTimes .clear {
+    clear:both;
+}
+
+#divCampaignTimes div {
+    float:left;
+    margin-right: 20px;    
+}
+
+#divCampaignTimes div input {
+    width: 40px;
+    margin-left: 20px;
+}
+
+div[id$="upData"] {
+    margin-bottom: 50px;
+}
+
+.Font{
+    font-Family:Tahoma;
+	font-size: 9.0pt;
+}
+
+.dllformat{
+    margin-left:2px !important;
+}

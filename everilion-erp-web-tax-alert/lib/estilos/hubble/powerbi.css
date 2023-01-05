@@ -1,0 +1,84 @@
+.reportContainer {
+    bottom: 0;
+    left: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: absolute;
+    right: 0;
+    height: calc(100% - 40px)
+}
+
+.historicoBotonera {
+    height: calc(100% - 70px)
+}
+
+#reportContainer iframe{
+    border:none;
+}
+
+#reportContainerTest {
+    position: absolute;
+    bottom: 10px;
+    top: 517px;
+    right:0px;
+    left:0px;
+    margin-left: 15px;
+    margin-right:15px;
+    min-height:700px;
+}
+
+#reportContainerTest iframe{
+    border:none;
+}
+
+#ctl00_wfInterface_GrdvwListcompanys{min-width:790px;width: 60%;margin-left:20px;border-bottom:solid 2px #eaeaea !important;margin-bottom:20px;}
+#ctl00_wfInterface_GrdvwListcompanys tr:first-child{display:none;}
+#ctl00_wfInterface_GrdvwListcompanys tr{width: 60%;padding-left:20px;height:30px;}
+#ctl00_wfInterface_GrdvwListcompanys td:first-child{width: 85%;padding-left:20px;}
+#ctl00_wfInterface_GrdvwListcompanys td input{vertical-align:middle;height:20px;}
+#ctl00_wfInterface_GrdvwListcompanys tr:nth-child(even){background-color:white !important;}
+#ctl00_wfInterface_GrdvwListcompanys tr:nth-child(odd){background-color:#eaeaea !important;}
+
+#ctl00_wfInterface_grdVAssignCompanys{min-width:790px;width: 60%;margin-left:20px;border-bottom:solid 2px #eaeaea !important;margin-bottom:20px;}
+#ctl00_wfInterface_grdVAssignCompanys tr:first-child{display:none;}
+#ctl00_wfInterface_grdVAssignCompanys tr{width: 60%;padding-left:20px;height:30px;}
+#ctl00_wfInterface_grdVAssignCompanys td:first-child{width: 85%;padding-left:20px;}
+#ctl00_wfInterface_grdVAssignCompanys td input{vertical-align:middle;height:20px;}
+#ctl00_wfInterface_grdVAssignCompanys tr:nth-child(even){background-color:white !important;}
+#ctl00_wfInterface_grdVAssignCompanys tr:nth-child(odd){background-color:#eaeaea !important;}
+
+#ctl00_wfInterface_GridViewReports{min-width:790px;width: 60%;margin-left:20px;border-bottom:solid 2px #eaeaea !important;margin-bottom:20px;}
+#ctl00_wfInterface_GridViewReports tr:first-child{display:none;}
+#ctl00_wfInterface_GridViewReports tr{width: 60%;padding-left:20px;height:30px;}
+#ctl00_wfInterface_GridViewReports td:first-child{width: 70%;padding-left:20px;}
+#ctl00_wfInterface_GridViewReports td input{vertical-align:middle;height:20px;}
+#ctl00_wfInterface_GridViewReports tr:nth-child(even){background-color:white !important;}
+#ctl00_wfInterface_GridViewReports tr:nth-child(odd){background-color:#eaeaea !important;}
+
+#ctl00_wfInterface_GrdViewUserCompany{min-width:350px;width: 75%;margin-left:20px;border-bottom:solid 2px #eaeaea !important;margin-bottom:20px;float:left;}
+#ctl00_wfInterface_GrdViewUserCompany tr:first-child{display:none;}
+#ctl00_wfInterface_GrdViewUserCompany tr{width: 60%;padding-left:20px;height:30px;}
+#ctl00_wfInterface_GrdViewUserCompany td:first-child{width: 70%;padding-left: 25px;}
+#ctl00_wfInterface_GrdViewUserCompany td input{vertical-align:middle;}
+#ctl00_wfInterface_GrdViewUserCompany tr:nth-child(even){background-color:white !important;}
+#ctl00_wfInterface_GrdViewUserCompany tr:nth-child(odd){background-color:#eaeaea !important;}
+
+#ctl00_wfInterface_PanelDrpdUsers{float: left;padding-left: 43px;padding-top: 6px;padding-bottom: 9px;width: 100%;}
+
+#Div2 input {vertical-align: middle;}
+#Div3 input {vertical-align: middle;}
+#divPanelUserCompany {height: 72px;}
+
+#ctl00_wfInterface_grdVAssignCompanys > div input[type=image] {vertical-align: middle;}
+#ctl00_wfInterface_GrdvwListcompanys > div input[type=image] {vertical-align: middle;}
+
+
+#ctl00_wfInterface_drpdUsers{min-width: 174px;}
+
+
+#ctl00_wfInterface_GridViewReportsTest{min-width:790px;width: 60%;margin-left:20px;border-bottom:solid 2px #eaeaea !important;margin-bottom:20px;}
+#ctl00_wfInterface_GridViewReportsTest tr{width: 60%;padding-left:20px;height:30px;}
+#ctl00_wfInterface_GridViewReportsTest td:first-child{padding-left:20px;}
+#ctl00_wfInterface_GridViewReportsTest td input{vertical-align:middle;height:20px;}
+#ctl00_wfInterface_GridViewReportsTest tr:nth-child(even){background-color:white !important;}
+#ctl00_wfInterface_GridViewReportsTest tr:nth-child(odd){background-color:#eaeaea !important;}

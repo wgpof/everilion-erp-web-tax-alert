@@ -1,0 +1,86 @@
+﻿.LoyaltyAssociation-col2ContainerLeft{
+    width: 15%;
+    min-width: 6em;
+    float: left;
+    display: inline-block;
+}
+
+.LoyaltyAssociation-col2ContainerRight{
+    width: 75%;
+    float: left;
+    display: inline-block;
+    padding-left: 3%;
+}
+
+.LoyaltyAssociation-col2ContainerRightDate{
+    width: 50%;
+    min-width: 10em;
+    float: left;
+    display: inline-block;
+    padding-left: 3%;
+}
+
+
+.LoyaltyAssociation-col2ContainerRight > input[type=text]{
+    width: 100%;
+}
+
+.LoyaltyAssociation-col2ContainerRightDate > input[type=text]{
+    width: 7em;
+}
+
+.LoyaltyAssociation-col2Left{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    width: 50%;
+    float: left;
+    display: inline-block;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.LoyaltyAssociationActive-col2Right {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    width: 44%;
+    float: right;
+    display: inline-block;
+}
+
+.LoyaltyAssociationActive-imgUpload {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    width: 44%;
+    float: left;
+    display: inline-block;
+}
+
+.LoyaltyAssociation-imgUploadLeft{
+    width: 44%;
+    float: left;
+    display: inline-block;
+    margin-top: -3em;
+}
+
+.LoyaltyAssociation-imgUploadRight{
+    width:34%;
+    float: left;
+    display: inline-block;
+    margin-bottom: 1em;
+    padding-left: 4.5em;
+}
+
+.imgAssociation{
+    max-width: 100%;
+    min-width: 50%;
+    height: auto;
+}
+
+.LoyaltyAssociation_LinkVersionList{
+    margin: 1em 0.5em;
+
+}
+
+.LoyaltyAssociation-margin1em {
+    margin-bottom: 3em;
+}

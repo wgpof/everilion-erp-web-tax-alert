@@ -1,0 +1,67 @@
+a:hover, a:link, a:visited, a {
+    text-decoration: none;
+}
+
+#enlaces_extra {
+    margin: 10px 0;
+    font: 12px "Type", sans-serif;
+    padding: 0;
+}
+
+    #enlaces_extra .der {
+        display: none;
+    }
+
+    #enlaces_extra div {
+        color: #1994a4;
+        line-height: 16px;
+        text-align: center;
+    }
+
+    #enlaces_extra td {
+        margin: 0;
+        min-width: 60px;
+        vertical-align: middle;
+        padding: 0;
+        display: inline-block;
+    }
+
+    #enlaces_extra div a, .active {
+        color: #1994a4;
+        font-size: 14px;
+    }
+
+        #enlaces_extra div a:hover, #enlaces_extra span, a.active:hover, .active {
+            color: #e35e24;
+        }
+
+
+.line_horizontal {
+}
+
+.el0 {
+}
+
+.el1 {
+    width: 150px;
+    color: #00ff00;
+    float: left;
+    text-align: center;
+    font: 12px "Type", sans-serif;
+}
+
+    .el1 a {
+        color: #2589a2;
+    }
+
+        .el1 a:hover, .el1 span, a.active:hover {
+            color: #1994a4;
+        }
+
+.el2 {
+    width: 3px;
+    color: #1994a4;
+    float: left;
+    text-align: center;
+    font: 12px "Type", sans-serif;
+}

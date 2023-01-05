@@ -1,0 +1,156 @@
+﻿.usual-table {
+    width: 100%;
+    padding: 5px;
+}
+
+.usual-table th {
+    background-color: #F5F4F2;
+    color: black !important;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+
+.Action {
+    width: 20%;
+}
+
+.usual-table .alignCenter {
+    text-align: center;
+}
+
+.usual-table td {
+    border: 0 !important;
+    font-size: 0.8em !important;
+    padding: 5px !important;
+    color: #828282 !important;
+    font-weight: normal !important;
+    text-align: center;
+}
+
+.usual-table tr:nth-child(odd) {
+    background: #F9F9F9;
+}
+
+.usual-table .even {
+    background-color: #EAEAEA;
+}
+
+.usual-table .accordion {
+    cursor: pointer;
+}
+
+.usual-table .ic-collapse {
+    background: url(../BBVA/images/ic_collapse.png) no-repeat center center;
+    width: 13px;
+}
+
+.usual-table .accordion:hover {
+    cursor: pointer;
+    background: #e3faff;
+}
+
+.usual-table .accordion td {
+    background-color: transparent !important;
+}
+
+.usual-table .accordion-item {
+    background: none repeat scroll 0 0 #e0f3ff;
+    padding: 10px;
+}
+
+.usual-table .summary {
+    background-color: #707070;
+    color: #FFFFFF !important;
+}
+
+    .usual-table .summary td {
+        color: #FFFFFF !important;
+    }
+
+.float-right {
+    float: right;
+}
+
+.show-results {
+    font-size: 0.8em;
+}
+
+.pagination {
+    padding: 10px 5px;
+}
+
+.pading10 {
+    padding: 10px;
+}
+
+.padingBottom40 {
+    padding-bottom: 40px;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.width120 {
+    min-width: 120px;
+}
+
+.width100p {
+    width: 100%;
+}
+
+.nowrap {
+    white-space: nowrap !important;
+}
+.hide {
+    display: none;
+}
+.Draft{
+    color: orange;
+}
+
+.Enable{
+    color: green;
+}
+
+.Disable{
+    color: red;
+}
+
+.pagination .first, .last, .prev, .next{
+    float: none !important;
+}
+
+.modal
+{
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: Black;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+}
+
+.center
+{
+    z-index: 1000;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: White;
+    border-radius: 100px;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -moz-opacity: 1;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;	
+	margin: auto;
+}

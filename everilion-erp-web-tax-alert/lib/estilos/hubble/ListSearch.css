@@ -1,0 +1,510 @@
+﻿
+/* 
+ * Everilion Styles
+ * Search List Style
+ * Date: 29/11/2012
+ * HM, MD
+ */
+ @font-face {
+    font-family: 'Type';
+    src: url('fonts/NotoSans-Regular-webfont.woff') format('woff'),
+         url('fonts/NotoSans-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Type';
+    src: url('fonts/NotoSans-Bold-webfont.woff') format('woff'),
+         url('fonts/NotoSans-Bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.BODY_ASP, body {
+    background-color: #fff !important;
+}
+
+table, td, tr {
+    text-align: left;
+    border: 0;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+}
+
+table td {
+    font-weight: normal;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+a:hover, a:link, a:visited, a {
+    text-decoration: none;
+}
+
+a, .active {
+    color: #188290;
+    font-weight: 700;
+}
+
+    a:hover, a.active:hover {
+        color: #e34e25;
+    }
+
+.body_list {
+    font-family: "Type", sans-serif;
+    font-style: normal;
+    color: #555;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 0;
+    margin-left: 0;
+    background-color: #fff;
+}
+
+    .body_list > form {
+        height: 100%;
+    }
+
+#LookSection {
+    box-sizing: border-box;
+    height: calc(100% - 55px);
+    margin: 0;
+    overflow: auto;
+    position: relative;
+}
+
+.LookHeader {
+    font-family: "Type", sans-serif;
+    font-weight: normal;
+    font-size: 11px;
+    color: #555;
+}
+
+#FILTERS {
+	background-color: #fff;
+	border-top: solid 1px #ccc;
+	bottom: 0px;
+	box-sizing: border-box;
+	display: inline-block;
+	height: 55px;
+	margin: 0px;
+	padding: 14px 10px;
+	position: fixed;
+	text-align: left;
+	width: 100%;
+}
+    #FILTERS > table {
+        width: auto;
+    }
+
+.TableHeader {
+    color: #000;
+    border-bottom: solid 1px #f2a21e;
+}
+
+.Pages {
+    display: none;
+    height: 26px;
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+    vertical-align: middle;
+    width: auto;
+}
+
+#SearchResult + .Pages {
+    display: block;
+}
+
+#SearchResult tr:nth-child(1n) {
+    background: #fdfdfd;
+}
+
+#SearchResult tr:nth-child(2n) {
+    background: #fcecd2;
+}
+
+.Pages .text {
+    vertical-align: middle;
+}
+
+.Pages a img {
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+}
+
+#page2 {
+    margin-bottom: 50px;
+}
+
+#page1 img {
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+}
+
+#page2 img {
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+}
+/*PAGINATION*/
+.searchPagination {
+    display: none;
+}
+
+#SearchResult ~ .searchPagination {
+    display: table;
+    margin: 10px 0;
+}
+
+.MAS font, .searchPagination font, .searchPagination a.CELDAREF[href*="Ir"] {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+.searchPagination a.CELDAREF[href*="Ir"] {
+    background: url(/lib/estilos/HUBBLE/images/aceptar_guardar.png) no-repeat center;
+    color: transparent;
+    display: inline-block;
+    height: 26px;
+    vertical-align: middle;
+    width: 26px;
+}
+
+.MAS .CELDA, .MAS a {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+    .MAS a[href*="last"], .MAS a[href*="first"] {
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: 26px;
+    }
+
+    .MAS a[href*="last"] {
+        background-image: url(/lib/estilos/HUBBLE/images/btn_last.png);
+    }
+
+    .MAS a[href*="first"] {
+        background-image: url(/lib/estilos/HUBBLE/images/btn_first.png);
+    }
+
+    .MAS a[href*="first"] img, .MAS a[href*="last"] img {
+        visibility: hidden;
+    }
+
+.MAS a {
+    color: transparent;
+    height: 26px;
+    overflow: hidden;
+    width: 26px;
+    margin: 0 3px;
+}
+
+.MAS img[src*="btn_"] {
+    height: 26px;
+    width: 26px;
+}
+
+#SearchResult, .SearchResult {
+    width: 100%;
+    font-size: 12px;
+    font-family: "Type", sans-serif;
+}
+
+    #SearchResult tr:first-child td, .SearchResult tr:first-child td {
+        background-color: #fff;
+        border-bottom: solid 1px #f2a21e;
+        color: #000;
+        font-family: "Type", sans-serif;
+        font-weight: 700;
+    }
+
+    #SearchResult td {
+        border: none;
+    }
+
+    #SearchResult td, .SearchResult tr:first-child td {
+        font-size: 12px;
+        line-height: 12px;
+        padding: 7px 4px;
+    }
+
+.TableHeader {
+    color: #333;
+}
+
+.TableRow1 {
+    background-color: #ffffff;
+}
+
+.TableRow2 {
+    background-color: #f9eede;
+}
+
+.Col {
+}
+
+.Cell {
+    color: #555;
+}
+
+.CellRight {
+    text-align: right;
+}
+
+.CellLeft {
+    text-align: left;
+}
+
+.CellCenter {
+    text-align: center;
+}
+
+.CellRef, .CELDAREF {
+    color: #188290;
+    text-align: left;
+    font-size: 12px;
+    border-collapse: collapse;
+}
+
+    .CellRefSelected, .CELDAREF:hover, .CELDAREF:active {
+        color: #e35e24;
+        text-align: center;
+    }
+
+.ECellLeft {
+    font-size: 12px;
+    font-weight: 700;
+    color: #000;
+    text-align: left;
+    padding-bottom: .5em;
+    border-bottom: solid 1px #f2a21e;
+}
+
+.ECellRight {
+    text-align: right;
+    color: #000000;
+}
+
+.ECellCenter {
+    text-align: center;
+    color: #000000;
+}
+
+.None {
+    clear: both;
+}
+
+.Text {
+    font-size: 12px;
+    vertical-align: middle;
+    color: #686868;
+}
+
+/*---------->Controls*/
+#searchFilters {
+    width: auto;
+    margin: 10px 0;
+}
+
+input.IN {
+    cursor: text;
+}
+
+.IN, #searchFilters .CELDA, #searchFilters input, #searchFilters select, .searchPagination input {
+    height: 26px;
+    margin: 0 4px 0 0;
+    padding: 2px 4px;
+    vertical-align: middle;
+    border-radius: 3px;
+    border: solid 1px #ccc;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+}
+
+    #searchFilters .CELDA[name="texto"], .MAS + td input.CELDA, #searchFilters input[name="texto"] {
+        border-radius: 0;
+        border-width: 0 0 1px;
+        font-style: italic;
+        min-width: 50px;
+    }
+
+#searchFilters img[src*="btn_"] {
+    width: 22px;
+    height: 22px;
+}
+
+.IN:hover, .IN:focus {
+    color: #e35e24;
+}
+
+input.IN {
+    border-width: 0 0 1px;
+    font-style: italic;
+}
+
+.IN + .CELDAREF img {
+    vertical-align: middle;
+}
+
+.CELDA {
+    font-Family: "Type", sans-serif;
+    font-size: 12px;
+    /*cursor: pointer;*/
+    border-radius: 4px;
+    padding: 4px;
+}
+
+/*.CELDA:hover {
+        color: #e35e24;
+    }*/
+
+BODY_ASP {
+    margin: 0px;
+}
+
+
+td.ENCABEZADOC {
+    font-Family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: left;
+    color: #000;
+}
+
+.lateral_input_search {
+    font-style: italic;
+    cursor: text;
+    width: 280px;
+    color: #ccc;
+}
+
+.window_input_search {
+    font-style: italic;
+    cursor: text;
+    color: #ccc;
+    width: 300px;
+}
+
+    .window_input_search:focus {
+        color: black;
+    }
+
+/*Buttons*/
+.Button {
+    height: 22px;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.ButtonR {
+    float: right;
+}
+
+.StyleWrap {
+    /* The following styles prevent unbroken strings from breaking the layout */
+    width: 210px; /* set to whatever width you need */
+    overflow: auto;
+    white-space: -moz-pre-wrap; /* Mozilla */
+    white-space: -hp-pre-wrap; /* HP printers */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: pre-wrap; /* CSS 2.1 */
+    white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+    word-wrap: break-word; /* IE */
+    -moz-binding: url('xbl.xml#wordwrap'); /* Firefox (using XBL) */
+}
+
+.LISTSORT {
+    height: auto;
+    margin-top: 7px;
+    margin-left: 5px;
+    font-family: "Type", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: #555;
+}
+
+.CEROFILAS {
+    font-Family: "Type", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    padding: 10vw;
+    width: 100%;
+}
+
+.BK_WAIT {
+    font-Family: "Type", sans-serif;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 4px;
+    display: none;
+}
+
+#wait {
+    border: none;
+    float: left;
+    height: 80px;
+    position: relative;
+    width: 80px;
+}
+
+
+#wait_transparence {
+    -moz-opacity: 0.95;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 40px;
+    filter: alpha(opacity=95);
+    float: left;
+    height: 80px !important;
+    opacity: 0.95;
+    width: 80px;
+}
+
+#text_transparence {
+    top: 0px;
+    border: none;
+    height: 80px !important;
+    left: 0px;
+    position: absolute;
+    width: 80px;
+}
+
+.line_nowrap {
+    white-space: nowrap;
+}
+
+input.CELDA, select.CELDA, textarea.CELDA, td.CELDA {
+    border-color: #ccc;
+    border-radius: 0px;
+    vertical-align: middle;
+}
+
+.CELDACENTERB {
+    color: #000;
+}
+

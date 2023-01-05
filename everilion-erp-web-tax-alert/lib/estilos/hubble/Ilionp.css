@@ -1,0 +1,1889 @@
+@font-face {
+    font-family: 'Type';
+    src: url('fonts/NotoSans-Regular-webfont.woff') format('woff'),
+         url('fonts/NotoSans-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Type';
+    src: url('fonts/NotoSans-Bold-webfont.woff') format('woff'),
+         url('fonts/NotoSans-Bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+.body {
+    margin-top: 0;
+    background-color: #fff;
+}
+
+.body_bt {
+    height: 51px;
+    margin-left: 0;
+    margin-top: 6;
+    background-color: #75797e;
+}
+
+
+.SALTO {
+    page-break-after: always
+}
+
+.CELDA {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #555;
+}
+
+.CELDALEFT {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: left;
+    color: #555;
+}
+
+.CELDARIGHT {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: right;
+    color: #555;
+}
+
+.CELDACENTER {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #555;
+}
+
+.CELDA7 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #555;
+}
+
+.CELDAR7 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: right;
+    color: #555;
+}
+
+.CELDAL7 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: left;
+    color: #555;
+}
+
+.CELDAC7 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #555;
+}
+
+.CELDAB7 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #555;
+}
+
+.CELDA6 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #555;
+}
+
+.CELDAR6 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: right;
+    color: #555;
+}
+
+.CELDAL6 {
+    font-family: "Type", sans-serif;
+    font-size:12px;
+    text-align: left;
+    color: #555;
+}
+
+.CELDAC6 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #555;
+}
+
+.CELDAB {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    color: #555;
+}
+
+.CELDABS {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #555;
+}
+
+.CELDAB2 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    color: #555;
+}
+
+.CELDABOT {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    vertical-align: middle;
+}
+
+.INPUT {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+}
+
+.INPUTALM {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    width: 45px;
+}
+
+.IN {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+}
+
+.CELDAREF {
+    color: #1994a4;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.CELDAREF7 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1994a4;
+}
+
+.CELDAREFR7 {
+    text-align: right;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1994a4;
+}
+
+.CELDAREFL7 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: left;
+    text-decoration: none;
+    color: #1994a4;
+}
+
+.CELDAREFB {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1994a4;
+    font-weight: bold;
+}
+
+.CELDAREFB7 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1994a4;
+    font-weight: bold;
+}
+
+.ENCABEZADOC {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #686868;
+}
+
+.ENCABEZADOL {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: left;
+    color: #686868;
+}
+
+.ENCABEZADOR {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: right;
+    color: #686868;
+}
+
+.ENCABEZADO {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #686868;
+}
+
+.ENCABEZADOC7 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #686868;
+}
+
+.ENCABEZADOL7 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: left;
+    color: #686868;
+}
+
+.ENCABEZADOR7 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: right;
+    color: #686868;
+}
+
+.CABECERA {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+}
+
+.CABECERA14 {
+    font-family: "Type", sans-serif;
+    font-size: 14.0pt;
+    font-weight: bold;
+}
+
+.CABECERA24 {
+    font-family: "Type", sans-serif;
+    font-size: 24.0pt;
+}
+
+.CABECERA35 {
+    font-family: "Type", sans-serif;
+    font-size: 35.0pt;
+    vertical-align: top;
+}
+
+.tier1 {
+    color: #000000;
+    font: "Type", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tier1over {
+    color: #000000;
+    font: "Type", sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tier1hot {
+    color: #000000;
+    font: "Type", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.COMBOBOX {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    width: 100%;
+}
+
+.CEROFILAS {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.TabLink {
+    text-decoration: none;
+    color: black;
+}
+
+.BlueLink {
+    text-decoration: none;
+    color: #1994a4;
+}
+
+.CELDA1994a4BOLD {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: 1994a4;
+    font-weight: bold;
+}
+
+.CELDA1994a4BOLD7 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: 1994a4;
+    font-weight: bold;
+}
+
+.NEGRO {
+    font-family: "Type", sans-serif;
+    font-size: 10.0px;
+    color: #999999;
+    text-align: center;
+}
+
+.PIE {
+    font-family: "Type", sans-serif;
+    font-size: 10.0px;
+    color: #999999;
+    text-align: center;
+}
+
+.FECHA {
+    font-family: "Type", sans-serif;
+    font-size: 9px;
+    color: #FFFFFF;
+}
+
+.ORG {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.USU {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+TABLE.TBORDE {
+    border: 1px solid black;
+}
+
+.CHECK {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    width: 20px;
+}
+
+.INPUTPREC {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: right;
+    width: 73px;
+}
+
+.DTO {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: right;
+    width: 48px;
+}
+
+.CELDABLUEBOLD {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #1994a4;
+}
+
+.TDSINBORDE {
+    border: 0px solid black;
+}
+
+.TDSINBORDECELDA {
+    border: 0px solid black;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #555;
+}
+
+.TDSINBORDECELDA7 {
+    border: 0px solid black;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #555;
+}
+
+.TDBORDE {
+    border: 1px solid black;
+}
+
+.TDBORDECELDA7 {
+    border: 1px solid black;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #555;
+}
+
+.TDBORDECELDAR7 {
+    border: 1px solid black;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: right;
+    color: #555;
+}
+
+.TDBORDECELDAL7 {
+    border: 1px solid black;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: left;
+    color: #555;
+}
+
+.TDBORDECELDAC7 {
+    border: 1px solid black;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #555;
+}
+
+.TDBORDECELDAREF {
+    border: 1px solid black;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #1994a4;
+}
+
+.TDBORDECELDAREFB {
+    border: 1px solid black;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #1994a4;
+    font-weight: bold;
+}
+
+.TDBORDECELDAREFL7 {
+    border: 1px solid black;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: left;
+    color: #1994a4;
+}
+
+.TDBORDECELDAREFR7 {
+    border: 1px solid black;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: right;
+    color: #1994a4;
+}
+
+.TDACTIVO {
+    CURSOR: pointer;
+    COLOR: #555;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    BACKGROUND-COLOR: #EDD7CC;
+    text-decoration: none;
+    text-align: center;
+}
+
+.TDINACTIVO {
+    CURSOR: pointer;
+    COLOR: #000000;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    BACKGROUND-COLOR: #F5F4F2;
+    text-decoration: none;
+    text-align: center;
+}
+
+.TDACTIVO8 {
+    CURSOR: pointer;
+    COLOR: #555;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    BACKGROUND-COLOR: #EDD7CC;
+    text-decoration: none;
+    text-align: center;
+}
+
+.PROCESANDO {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #000066;
+}
+
+.CELDACOLORBLANC7 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.CAB {
+    font-family: "Type", sans-serif;
+    FONT-SIZE: 12px;
+}
+
+.CELDABLUEBOLD10 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #1994a4;
+}
+
+.dato {
+    BORDER: 1px solid Black;
+    font-family: "Type", sans-serif;
+    FONT-SIZE: 12px;
+    HEIGHT: 15px;
+}
+
+.TDBORDECELDAB7 {
+    border: 1px solid black;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #555;
+}
+
+.TDACTIVO10 {
+    CURSOR: pointer;
+    COLOR: #555;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    BACKGROUND-COLOR: #EDD7CC;
+    text-decoration: none;
+    text-align: center;
+}
+
+.TDBORDECELDA8 {
+    border: 1px solid black;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #555;
+}
+
+.TDBORDECELDAB8 {
+    border: 1px solid black;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #555;
+    font-weight: bold;
+}
+
+.TDBORDECELDAC8 {
+    border: 1px solid black;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #555;
+    text-align: center;
+}
+
+.TDBORDECELDACB8 {
+    border: 1px solid black;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #555;
+    font-weight: bold;
+    text-align: center;
+}
+
+.MENUTIENDA7 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #006633;
+    font-weight: bold;
+}
+
+.MENUTIENDA27 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #732131;
+}
+
+.AYUDA {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    background-color: #DFDBD7;
+    color: #000000;
+}
+
+.BOTONFABRICACION {
+    width: 200px;
+    height: 130px;
+    font-family: "Type", sans-serif;
+    font-size: 15.0pt;
+    text-align: center;
+}
+
+.TDBORDECELDARB7 {
+    border: 1px solid black;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: right;
+    color: #555;
+    font-weight: bold;
+}
+
+.TDBORDECELDALB7 {
+    border: 1px solid black;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+.ETIQUETATPV {
+    border: 1px solid solid black;
+    font-family: "Type", sans-serif;
+    font-size: 11px;
+    background-color: #FFFFE1;
+}
+
+.TDBORDECELDA1994a4R7 {
+    border: 1px solid black;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: right;
+    color: 1994a4;
+}
+
+.TDBORDECELDA1994a4RB7 {
+    border: 1px solid black;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: right;
+    color: 1994a4;
+    font-weight: bold;
+}
+
+.dato1994a4 {
+    BORDER: 1px solid Black;
+    font-family: "Type", sans-serif;
+    FONT-SIZE: 12px;
+    color: 1994a4;
+    HEIGHT: 15px;
+}
+
+.CELDACENTERB {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.modalBackground {
+    background-color: Gray;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+
+.modalPopup {
+    background-color: #ffffdd;
+    border-width: 3px;
+    border-style: solid;
+    border-color: Gray;
+    padding: 3px;
+    width: 250px;
+}
+
+.enlaceGrid {
+    text-decoration: none;
+}
+
+.tabla {
+    background-color: #c2e0e6;
+}
+
+.fondogris {
+    background-color: #eae7e3;
+}
+
+.ErrorCELDA {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: 1994a4;
+    font: bolder;
+}
+
+.barra {
+    background-color: #D0C9C1;
+    font-family: "Type", sans-serif;
+    font-size: 12.0pt;
+    color: #9C2828;
+    border-color: Black Black Black Black;
+    border: 1px solid;
+    font-style: italic;
+}
+
+
+.panelD {
+    margin: 15px 15px 5px 15px;
+    background-color: #FFF5EE;
+}
+
+.mano {
+    cursor: pointer;
+}
+
+.fondo00004 {
+    background-color: #FFFFBD;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #555;
+}
+
+.fondo00001 {
+    background-color: #C4F0C5;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #555;
+}
+
+.fondo00002 {
+    background-color: #E8F4FF;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #555;
+}
+
+.fondo000031 {
+    background-color: #FFEEEC;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #555;
+}
+
+.fondo000032 {
+    background-color: #FFCCB9;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #555;
+}
+
+
+.fondo00001p {
+    background-color: #C4F0C5;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #CF2727;
+}
+
+.BOTONMARCAJE {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    background-color: #D0C9C1;
+}
+
+.CELDAVACIA {
+    font-family: "Type", sans-serif;
+    font-size: 3px;
+    width: 24px;
+    height: 10px;
+}
+
+.CASILLAVACIA {
+    font-family: "Type", sans-serif;
+    font-size: 3px;
+    width: 2px;
+    height: 10px;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(164, 50, 0);
+}
+
+.finish {
+    background-image: url('images/imagesCalendario/tentative5x8_1994a4.gif');
+}
+
+.nofinish {
+    background-image: url('images/imagesCalendario/tentative5x8.gif');
+}
+
+.cellMaster {
+    text-align: center;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: White;
+}
+
+.ORGMobile {
+    font-family: "Type", sans-serif;
+    font-size: 9px;
+    color: #FFFFFF;
+}
+.body_bt2 {
+    margin-left: 0;
+    margin-top: 6;
+    background-color: #54575A;
+}
+
+.CABECERA10 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.CABECERA12 {
+    font-family: "Type", sans-serif;
+    font-size: 12.0pt;
+    font-weight: bold;
+}
+.TDINACTIVO {
+    CURSOR: pointer;
+    COLOR: #000000;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    BACKGROUND-COLOR: #F5F4F2;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.ENCABEZADOL9 {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+.LINKAPP {
+    font-family: "Type", sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+
+
+
+/*---------->Breadcrumb*/
+#breadcrumb {
+    width: 100%;
+}
+
+.breadcrumb_td, .breadcrumb_td span {
+    font-family: "Type", sans-serif;
+}
+
+.breadcrumb_td {
+    color: #231f20;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 9px 0;
+}
+
+    .breadcrumb_td + td img {
+        width: 26px;
+        height: 26px;
+    }
+
+/*----------> DocumentalManager*/
+.pnlPopup {
+    border: solid 1px black;
+    background-color: #FDFDFD;
+}
+
+.pnlPopupHeader {
+    background-color: #d0c9c1;
+    font-weight: bold;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    cursor: move;
+}
+
+.pnlUsedSizeHoverMenu {
+    border: 1px solid #000000;
+    background-color: #ffffff;
+}
+
+.treeViewSelected {
+    color: #ffac5d;
+}
+
+#footer {
+    background: url(images/nubes_img.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 456px;
+    height: 270px;
+    bottom: 0px;
+    z-index: -1;
+    right: 0px;
+}
+
+.mandatory {
+    color: #2e9fbd;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: top;
+    padding-right: 1px;
+}
+
+.BK_WAIT {
+    font-family: <%=lletra%>;
+    font-size: 11px;
+    text-align: center;
+    ;
+    margin-top: 4px
+}
+
+.BK_WAIT_PDF {
+    font-family: <%=lletra%>;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px
+}
+
+#wait {
+    width: 110px;
+    height: 110px;
+    float: left;
+    position: relative;
+    color: #000;
+}
+
+#wait_pdf {
+    width: 410px;
+    height: 110px;
+    float: left;
+    position: relative;
+    color: #000;
+}
+
+#wait_transparence_pdf {
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 100px;
+    float: left;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.70;
+    opacity: 0.70;
+    border: 1px solid #3492a8;
+}
+
+#text_transparence_pdf {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    border-color: #3492a8;
+    top: 0px;
+    left: 0px;
+}
+
+#wait_transparence {
+    background-color: #FFFFFF;
+    width: 100px;
+    height: 100px;
+    float: left;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.70;
+    opacity: 0.70;
+    border: 1px solid #3492a8;
+}
+
+#text_transparence {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-color: #3492a8;
+    top: 0px;
+    left: 0px;
+}
+
+.line_nowrap {
+    white-space: nowrap;
+}
+
+.pnlPopup {
+    border: solid 1px black;
+    background-color: #F5F4F2;
+}
+
+.listaContactos {
+    max-height: 200px;
+    width: 600px !important;
+    overflow: auto;
+    background-color: #ffffff;
+    border: solid 1px #000000;
+    list-style-type: none;
+    margin: 0px !important;
+    padding: 0px;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #000000;
+    float: left;
+    z-index: 9999999999;
+    position: absolute;
+    list-style: none;
+}
+
+.CELDALINK {
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+}
+
+/*CSS para el tab superior del enabler demo*/
+.FNARANJA_O, .FGRIS_O, .FGRIS_DARK_O, .FGRIS_DARK2_O {
+    color: rgb(0, 0, 0) !important;
+    font: 12px/12px Arial,Helvetica,sans-serif;
+    height: 30px;
+    padding: 0 90px 0 5px;
+    text-transform: lowercase;
+    width: 150px;
+}
+
+.FNARANJA_O {
+    color: rgb(255, 255, 255) !important;
+    background: url(images/steparrow_orange.png) no-repeat right center #f16e00;
+}
+
+.FGRIS_O {
+    background: url(images/steparrow_grey.png) no-repeat right center #cccccc;
+}
+
+.FGRIS_DARK_O {
+    background: #666;
+    color: #fff !important;
+    background: url(images/steparrow_darkgrey.png) no-repeat right center #666;
+}
+
+.FGRIS_DARK2_O {
+    background: #666;
+    color: #fff !important;
+    background: url(images/steparrow_darkgrey2.png) no-repeat right center #666;
+}
+
+#tab_demo {
+    border-collapse: collapse;
+}
+
+.FGRIS_END {
+    background: none repeat scroll 0 0 rgb(204, 204, 204);
+    width: 39%;
+}
+
+.txtBlue {
+    color: #1994a4;
+}
+
+.tabs_dem hr {
+    border: 1px solid #1994a4;
+}
+
+.margin_soap {
+    margin-left: 20px;
+}
+
+.Requi1994a4_Error {
+    color: 1994a4;
+}
+/*-----*/
+
+/***** Item Images Gallery Styles *****/
+.imagePanel {
+    display: inline-table;
+    text-align: center;
+    vertical-align: top;
+}
+
+    .imagePanel a img {
+        border: 0px;
+        display: table-cell;
+        vertical-align: middle;
+        height: 16px;
+        width: 16px;
+    }
+
+    .imagePanel input {
+        vertical-align: middle;
+        height: 16px;
+        width: 16px;
+    }
+
+.imageDiv {
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    background-color: #CCC;
+    border-radius: 5px;
+}
+
+.itemImage {
+    max-width: 150px;
+    max-height: 100px;
+}
+
+.dimensionWidth {
+    width: 35px;
+}
+
+.dottedExtraText {
+    text-overflow: ellipsis;
+}
+
+.fondo {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    display: inline-table;
+    vertical-align: middle;
+}
+
+    .fondo input[type="file"] {
+        text-indent: -100px;
+        width: 16px;
+        height: 20px;
+        filter: alpha(opacity=0);
+        background-color: rgb(255, 0, 0);
+        cursor: pointer;
+        display: block;
+        opacity: 0;
+    }
+
+    .fondo > div {
+        background: none !important;
+    }
+
+    .fondo div[type="text"] {
+        display: none;
+    }
+
+.itemsGrid {
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    margin-top: -18px;
+}
+
+.itemsColumn {
+    border-right-style: dotted;
+    border-right-width: 1px;
+    width: 20%;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.itemInfo {
+    padding-left: 285px;
+}
+
+.itemDimensions {
+    padding-left: 250px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.loadingPanel {
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    z-index: 3;
+}
+
+.pagerStyle span {
+    font-weight: bold;
+    background-color: #EAEAEA;
+}
+
+.imageButtons {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .imageButtons input[type="image"], .imageButtons img, .imageButtons a {
+        position: relative;
+        z-index: 3;
+    }
+/***** End Item Images Gallery Styles ****/
+
+.autocomplete_completionListElement {
+    max-height: 200px;
+    overflow: auto;
+    background-color: #ffffff;
+    border: solid 1px #000000;
+    list-style-type: none;
+    margin: 0px !important;
+    padding: 0px;
+    font-family: "Type", sans-serif;
+    font-size: 12px;
+    color: #000000;
+    float: left;
+    z-index: 9999999999;
+    position: absolute;
+    list-style: none;
+    overflow: auto;
+    cursor: default
+}
+
+
+/******BBVA STYLES BACKOFFICE************/
+.visibilityHidden {
+    visibility: hidden;
+}
+
+#ctl00_wfInterface_upBBVACustomers .ENCABEZADOL,
+#ctl00_wfInterface_UpdatePanelBBVACards .ENCABEZADOL {
+    width: 20%;
+}
+
+#ctl00_wfInterface_upBBVACustomers .CELDA,
+#ctl00_wfInterface_UpdatePanelBBVACards .CELDA {
+    width: 30%;
+}
+
+
+/**********************************************************************/
+/*INIT LOYALTY PRODUCT STYLE*/
+/**********************************************************************/
+
+/******BBVA STYLES BACKOFFICE************/
+.visibilityHidden {
+    visibility: hidden;
+}
+
+#ctl00_wfInterface_upBBVACustomers .ENCABEZADOL,
+#ctl00_wfInterface_UpdatePanelBBVACards .ENCABEZADOL {
+    width: 20%;
+}
+
+#ctl00_wfInterface_upBBVACustomers .CELDA,
+#ctl00_wfInterface_UpdatePanelBBVACards .CELDA {
+    width: 30%;
+}
+
+/*BBVA STYLES OPERATIONS*/
+.usual-table th {
+    background-color: #F5F4F2;
+    color: black !important;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: left;
+}
+
+.usual-table:first-child td {
+    border: 0;
+    font-size: 10px;
+    padding: 5px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.usual-table td {
+    font-size: 0.8em;
+    padding: 5px;
+    color: #828282;
+    border-bottom: solid 1px #004c99;
+}
+
+
+.usual-table .alignCenter {
+    text-align: center;
+}
+
+
+.usual-table .even {
+    background-color: #EAEAEA;
+}
+
+.usual-table .accordion {
+    cursor: pointer;
+}
+
+.usual-table .ic-collapse {
+    background: url(images/ic_collapse.png) no-repeat center center;
+    width: 12px;
+}
+
+.usual-table .ic-expand {
+    background: url(images/ic_expand.png) no-repeat center center;
+    width: 12px;
+}
+
+.usual-table .accordion:hover {
+    cursor: pointer;
+    background: #e3faff;
+}
+
+.usual-table .accordion td {
+    background-color: transparent !important;
+}
+
+.usual-table .accordion-item {
+    background: none repeat scroll 0 0 #e0f3ff;
+    padding: 10px;
+}
+
+#tableSearchOperations a, #tableSearchOperations .active {
+    color: #1994a4;
+}
+
+    #tableSearchOperations a:hover, #tableSearchOperations a:link, #tableSearchOperations a:visited, #tableSearchOperations a {
+        text-decoration: none;
+    }
+
+        #tableSearchOperations a:hover, #tableSearchOperations a.active:hover {
+            color: #004c99;
+        }
+
+.pagination {
+    padding: 10px 5px;
+}
+
+    .pagination .number {
+        width: 14px;
+        height: 14px;
+        padding: 0 5px;
+        float: left;
+    }
+
+    .pagination .first, .last, .prev, .next {
+        width: 15px;
+        height: 18px;
+        padding: 0 5px;
+        float: left;
+    }
+
+    .pagination .first {
+        background: url(./images/btn_first.png) no-repeat center center;
+    }
+
+    .pagination .prev {
+        background: url(./images/btn_prev.png) no-repeat center center;
+    }
+
+    .pagination .last {
+        background: url(./images/btn_last.png) no-repeat center center;
+    }
+
+    .pagination .next {
+        background: url(./images/btn_follow.png) no-repeat center center;
+    }
+
+    .pagination .number {
+        font-size: 0.8em;
+        line-height: 1em;
+        text-align: center;
+        color: #7f7f7f;
+    }
+
+    .pagination .numberPages {
+        width: auto !important;
+        line-height: 1.5em
+    }
+
+.float-right {
+    float: right;
+}
+
+.pagination .active, .pagination .active:hover {
+    color: #006ec1;
+    cursor: default !important;
+}
+
+.show-results {
+    font-size: 0.8em;
+}
+
+.datepickerNet, .textboxDate {
+    width: 70px;
+    margin-right: 3px;
+}
+
+#tableSearchOperations select {
+    width: 150px;
+}
+
+#tableSearchOperations #txtFilterReason {
+    width: 350px;
+}
+
+#tableSearchOperations .CELDA input, #tableSearchOperations .CELDA select {
+    color: #555;
+    font-family: "Type", sans-serif;
+    ;
+    font-size: 11px;
+    text-align: left;
+}
+
+#tableSearchOperations .ENCABEZADOL span {
+    color: #686868;
+    font-family: "Type", sans-serif;
+    ;
+    font-size: 12px;
+    text-align: left;
+}
+
+.usual-table .summary {
+    background-color: #707070;
+    color: #FFFFFF !important;
+}
+
+    .usual-table .summary td {
+        color: #FFFFFF !important;
+    }
+
+/*Campaign style*/
+#ulCampaingWeekDays {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+    #ulCampaingWeekDays li {
+        background-color: #fff;
+        border-radius: 3px;
+        border: solid 1px #ccc;
+        box-sizing: border-box;
+        cursor: pointer;
+        flex-grow: 1;
+        list-style: none;
+        margin: 0 6px 0 0;
+        max-width: 60px;
+        text-align: center;
+    }
+
+        #ulCampaingWeekDays li span {
+            color: #231f20;
+            display: block;
+            font-size: 12px;
+            font-weight: bold;
+            padding: .65em;
+            text-transform: uppercase;
+        }
+
+        #ulCampaingWeekDays li:hover {
+            background: #e24e35;
+        }
+
+        #ulCampaingWeekDays li:hover, #ulCampaingWeekDays li.active {
+            border-bottom: solid 2px #e34e25;
+            color: #e35e24;
+        }
+
+#divCampaignTimes .clear {
+    clear: both;
+}
+
+#divCampaignTimes div {
+    float: left;
+    margin-right: 20px;
+}
+
+    #divCampaignTimes div input {
+        width: 40px;
+        margin-left: 20px;
+    }
+
+.campaignName {
+    width: 60%;
+}
+
+.campaignShortName {
+    width: 20%;
+}
+
+.campaignUrl {
+    width: 80%;
+}
+
+.campaignPDF {
+    width: 45%;
+}
+
+.campaignTitleCommunications {
+    font-weight: bold;
+}
+
+.txtComunication {
+    width: 85%;
+}
+
+#tbBenefitApplication select {
+    min-width: 200px;
+}
+
+div.divActionButtons {
+    margin: 30px 0 10px;
+    text-align: right;
+    border: none !important;
+}
+
+.divActionButtons a {
+    display: inline-block;
+}
+
+.tdPDFCommercial {
+    min-width: 20%;
+}
+
+.fluPDFCommercial {
+    display: none;
+    position: absolute;
+    z-index: -1000;
+}
+
+.maxNumberCard {
+    width: 15%;
+    margin-left: 10px;
+}
+
+.campaignType {
+    width: 20px;
+}
+
+.campaignLimitTitle {
+    font-weight: bold;
+}
+
+.maxLimitsPaddingRight {
+    padding-right: 15%;
+}
+
+.imgBlueLineBBVA {
+    width: 2px !important;
+}
+
+.campaignLink {
+    cursor: pointer;
+    color: #1994a4;
+}
+
+    .campaignLink:hover {
+        color: #004c99;
+    }
+
+.ColorEnabled, .span-browser.ColorEnabled {
+    color: #9aae04;
+}
+
+.ColorDisabled, .span-browser.ColorDisabled {
+    color: #ac002b;
+}
+
+.ColorInExecution, .span-browser.ColorInExecution {
+    color: #e35e24;
+}
+
+.divContainLimits {
+    width: 35%;
+    float: left;
+    text-align: right;
+}
+
+.Section {
+    background-color: #fff;
+}
+
+.txtAttribution {
+    width: 50px;
+}
+
+.encabezadoAttribution {
+    width: 17%;
+}
+
+@media all and (max-width: 1000px) {
+    .divContainLimits {
+        width: 45%;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .tdCustomerNotifications {
+        width: 20% !important;
+    }
+}
+
+.inline {
+    display: inline;
+}
+
+.dropMonthYear {
+    min-width: 15% !important;
+    width: 20% !important;
+}
+
+.DropsComplexRule {
+    width: 190px;
+}
+
+.divTitleComplexRule {
+    width: 97%;
+    border: 1px solid black;
+    padding-left: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 10pt;
+    margin-bottom: 20px;
+}
+
+.divRuleConfiguration {
+    background-color: #F7F7F7;
+    height: 50px;
+}
+
+.buttonAddInPopup {
+    bottom: 0;
+    left: 0;
+    margin-bottom: 1% !important;
+    margin-left: 2% !important;
+    position: absolute;
+    padding-bottom: 1px !important;
+    padding-top: 1px !important;
+}
+
+.labelSubprogramDescription {
+    display: block;
+}
+
+/* CMM Campaign */
+
+.lblLastDate {
+    margin: 0 0 0 5px;
+    display: block;
+}
+
+.btnDeleteLastDate {
+    margin: 0 0 10px 40px !important;
+}
+
+.dataIssueAcquiringCampaign {
+    width: 49%;
+    float: left;
+}
+
+.txtValue2 {
+    margin-top: 2px;
+}
+
+
+/* CMM BBVADebtConfiguration */
+.TableFieldsConfigDebt tr {
+    height: 40px;
+}
+
+.divCampaignCustomerEnrollment {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.warning {
+    color: #c8175e;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.RelativePosition {
+    position: relative !important;
+}
+
+.1994a4eemDataTitle {
+    width: 10% !important;
+    text-align: right;
+}
+
+.1994a4eemData {
+    width: 50% !important;
+}
+
+.ddlCards {
+    width: 40% !important;
+}
+
+.ddlProducts {
+    width: 80% !important;
+}
+
+.1994a4eemBalance {
+    width: 20% !important;
+    background-color: #F5F4F2;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.transferBalance {
+    background-color: #F5F4F2;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-family: "Type", sans-serif;
+    ;
+    font-size: 12px;
+    color: #686868;
+}
+
+.divCustomerHasDebt {
+    text-align: center;
+    color: 1994a4;
+    font-family: "Type", sans-serif;
+    ;
+    font-size: 10pt;
+}
+
+.displayInline {
+    display: inline !important;
+}
+
+.left80px {
+    left: 80px;
+}
+
+.backgroundGray {
+    background-color: #E3E5E6 !important;
+}
+
+.background1994a4 {
+    background-color: #FFE0E0 !important;
+}
+
+.extractButton {
+    color: #1994a4;
+    margin-left: 10px;
+    font-size: 0.8em;
+}
+
+.1994a4eemDataTitleMiles {
+    width: 25% !important;
+    text-align: right;
+}
+
+.1994a4eemDataMiles {
+    width: 35% !important;
+}
+
+    .1994a4eemDataMiles select {
+        width: 80% !important;
+    }
+
+    .1994a4eemDataMiles input {
+        width: 78% !important;
+    }
+
+.vAlignMiddle {
+    vertical-align: middle !important;
+}
+
+
+#enlaces_extra div, #enlaces_extra {
+    padding: 0 5px;
+    margin-top: 10px;
+}
+
+.divActionFields {
+    display: block;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#SEGMENTATION_RULES div.ENCABEZADOL {
+    height: auto !important;
+}
+
+.vAlignTop {
+    vertical-align: top;
+}
+
+.WidthConfigForm {
+    width: 40% !important;
+}
+
+.WidthButtonsConfigForm {
+    width: 5% !important;
+}
+
+.width90 {
+    width: 90% !important;
+}
+
+.alignCenter {
+    text-align: center !important;
+}
+
+.QuestionsAnswers ol {
+    margin: 0;
+    padding: 0;
+    margin-left: 15px;
+}
+
+.divActionFields a {
+    color: #1994a4;
+}
+
+.lblQuestion {
+    font-weight: bold;
+}
+
+.lblAnswer {
+    padding-left: 15px;
+}
+
+.CloseDebtPopUp {
+    margin: 25px auto;
+    width: 8%;
+}
+
+.smallLetter {
+    color: #7F7F7F;
+    display: block;
+    font-size: 10px;
+    text-align: left;
+}
+
+.ToolBarBackground {
+    background-color: 1994a4 !important;
+}
+
+.der {
+    color: transparent !important;
+    padding: 0px 10px;
+    display: inline-block;
+}
+
+/**********************************************************************/
+/*END LOYALTY PRODUCT STYLE*/
+/**********************************************************************/
